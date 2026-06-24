@@ -24,11 +24,15 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 43975
+    "uptime": 44033
   },
   "delta1_server": {
     "bootstrap": true,
-    "heartbeats": {},
+    "heartbeats": {
+      "drift_loop": "2026-06-24T12:52:10.658706+00:00",
+      "heartbeat": "2026-06-24T12:52:10.658399+00:00",
+      "signal_loop": "2026-06-24T12:52:10.737365+00:00"
+    },
     "last_scan_run_id": null,
     "last_scan_ts": null,
     "n_positions": 0,
@@ -36,7 +40,7 @@
     "ok": true,
     "portfolio_value": 100000.0,
     "start_ts": "2026-06-24T12:51:10.607582+00:00",
-    "uptime_s": 44.542701
+    "uptime_s": 103.272659
   },
   "fib_server": {
     "account_positions_count": 7,
@@ -55,7 +59,7 @@
         "hits": 529,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 243
+        "ticks_run": 244
       },
       "options": {
         "enabled": true,
@@ -77,12 +81,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-06-24T12:51:55.011234+00:00",
+    "ts_utc": "2026-06-24T12:52:53.752975+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 5487,
+        "msgs": 5493,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -94,7 +98,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 140,
+        "msgs": 141,
         "reconnects": 0
       },
       "equity_trades": {
@@ -131,7 +135,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1782305514.791,
+      "last_reconciled_ts": 1782305563.0475729,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -139,8 +143,8 @@
       "dryrun": false,
       "errors_last_5min": 5,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1782305514.7895682,
-      "last_heartbeat_age_sec": 0.0933218002319336,
+      "last_heartbeat": 1782305563.0462937,
+      "last_heartbeat_age_sec": 10.581721067428589,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
@@ -152,6 +156,6 @@
       "unique_symbols": 24
     }
   },
-  "pushed_at": 1782305515,
-  "pushed_at_iso": "2026-06-24T12:51:55Z"
+  "pushed_at": 1782305573,
+  "pushed_at_iso": "2026-06-24T12:52:53Z"
 }
