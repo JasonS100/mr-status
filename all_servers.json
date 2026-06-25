@@ -24,11 +24,15 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1414
+    "uptime": 1475
   },
   "delta1_server": {
     "bootstrap": true,
-    "heartbeats": {},
+    "heartbeats": {
+      "drift_loop": "2026-06-25T11:49:31.392796+00:00",
+      "heartbeat": "2026-06-25T11:49:31.392483+00:00",
+      "signal_loop": "2026-06-25T11:49:31.490413+00:00"
+    },
     "last_scan_run_id": null,
     "last_scan_ts": null,
     "n_positions": 0,
@@ -36,7 +40,7 @@
     "ok": true,
     "portfolio_value": 100000.0,
     "start_ts": "2026-06-25T11:48:31.359719+00:00",
-    "uptime_s": 37.777876
+    "uptime_s": 99.564709
   },
   "fib_server": {
     "account_positions_count": 6,
@@ -47,7 +51,7 @@
         "hits": 551,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 2056
+        "ticks_run": 2060
       },
       "equity": {
         "enabled": true,
@@ -77,12 +81,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-06-25T11:49:09.019424+00:00",
+    "ts_utc": "2026-06-25T11:50:10.663453+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 2835,
+        "msgs": 2841,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -131,7 +135,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1782388139.7267075,
+      "last_reconciled_ts": 1782388208.6406617,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -139,8 +143,8 @@
       "dryrun": false,
       "errors_last_5min": 1,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1782388139.7256665,
-      "last_heartbeat_age_sec": 9.178633213043213,
+      "last_heartbeat": 1782388208.4719129,
+      "last_heartbeat_age_sec": 1.9105021953582764,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
@@ -152,6 +156,6 @@
       "unique_symbols": 4
     }
   },
-  "pushed_at": 1782388149,
-  "pushed_at_iso": "2026-06-25T11:49:09Z"
+  "pushed_at": 1782388211,
+  "pushed_at_iso": "2026-06-25T11:50:11Z"
 }
