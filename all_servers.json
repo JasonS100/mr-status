@@ -24,14 +24,14 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 11313
+    "uptime": 11388
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10682.56,
+      "equity": 10678.8,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -40,7 +40,7 @@
     "heartbeats": {
       "drift_loop": "2026-06-30T15:16:05.711761+00:00",
       "full_scan_loop": "2026-06-30T14:07:17.970660+00:00",
-      "heartbeat": "2026-06-30T15:28:56.247499+00:00",
+      "heartbeat": "2026-06-30T15:29:56.249318+00:00",
       "signal_loop": "2026-06-30T14:31:04.699327+00:00"
     },
     "last_scan_run_id": 27,
@@ -56,8 +56,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-exits.timer",
         "delta1-monthly-backtest.timer",
         "delta1-freshness-check.timer",
         "delta1-paper-fib-entries.timer",
@@ -75,7 +75,7 @@
       }
     },
     "start_ts": "2026-06-29T22:08:54.947261+00:00",
-    "uptime_s": 62413.213016
+    "uptime_s": 62488.734447
   },
   "fib_server": {
     "account_positions_count": 8,
@@ -83,18 +83,18 @@
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 45,
+        "hits": 46,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 116
+        "ticks_run": 117
       },
       "equity": {
         "enabled": true,
         "errors": 0,
-        "hits": 34,
+        "hits": 35,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 606
+        "ticks_run": 639
       },
       "options": {
         "enabled": true,
@@ -102,7 +102,7 @@
         "hits": 3,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 408
+        "ticks_run": 430
       }
     },
     "cutover": {
@@ -151,12 +151,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-06-30T15:29:07.622460+00:00",
+    "ts_utc": "2026-06-30T15:30:22.511529+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 170,
+        "msgs": 177,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -168,7 +168,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 157,
+        "msgs": 161,
         "reconnects": 0
       },
       "equity_trades": {
@@ -188,48 +188,39 @@
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
-      "checked_at": 1782833241.4617462,
-      "summary": "ok"
+      "checked_at": null,
+      "summary": null
     },
-    "ok": true,
+    "ok": false,
     "options": {
-      "degraded": false,
-      "enabled": true,
+      "degraded": null,
+      "enabled": null,
       "open_structures": 0,
-      "opens_today": {
-        "count": 3,
-        "daily_cap": 3,
-        "date": "2026-06-30",
-        "underlyings": [
-          "IBM",
-          "SCHW",
-          "VST"
-        ]
-      },
-      "order_submission_enabled": true
+      "opens_today": null,
+      "order_submission_enabled": null
     },
     "reconcile": {
-      "last_reconciled_ts": 1782833347.2757072,
-      "source": "alpaca_rest",
-      "stale": false
+      "last_reconciled_ts": null,
+      "source": null,
+      "stale": null
     },
     "status": {
-      "dryrun": false,
+      "dryrun": null,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1782833347.1593883,
-      "last_heartbeat_age_sec": 0.2247915267944336,
+      "last_heartbeat": null,
+      "last_heartbeat_age_sec": null,
       "open_positions": 0,
-      "order_submission_enabled": true,
-      "regime": "unknown_full",
-      "universe_size": 503
+      "order_submission_enabled": null,
+      "regime": null,
+      "universe_size": 0
     },
     "ws": {
-      "bars_seen": 984,
-      "last_bar_ts": 1782833340.161781,
-      "unique_symbols": 414
+      "bars_seen": 1018,
+      "last_bar_ts": 1782833401.564582,
+      "unique_symbols": 415
     }
   },
-  "pushed_at": 1782833348,
-  "pushed_at_iso": "2026-06-30T15:29:08Z"
+  "pushed_at": 1782833424,
+  "pushed_at_iso": "2026-06-30T15:30:24Z"
 }
