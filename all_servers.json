@@ -14,24 +14,24 @@
         "universe_symbol_count": 503
       },
       "degraded": false,
-      "duration_ms": 813,
+      "duration_ms": 847,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "universe": "sp500",
       "universe_size": 503
     },
-    "last_tick_at": "2026-06-30T16:00:54.939Z",
+    "last_tick_at": "2026-06-30T16:10:55.808Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 13772
+    "uptime": 13842
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10685.54,
+      "equity": 10686.86,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -40,7 +40,7 @@
     "heartbeats": {
       "drift_loop": "2026-06-30T16:01:10.114592+00:00",
       "full_scan_loop": "2026-06-30T14:07:17.970660+00:00",
-      "heartbeat": "2026-06-30T16:09:56.299652+00:00",
+      "heartbeat": "2026-06-30T16:10:56.300640+00:00",
       "signal_loop": "2026-06-30T15:31:09.563487+00:00"
     },
     "last_scan_run_id": 27,
@@ -57,11 +57,11 @@
       ],
       "host_timers": [
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-exits.timer",
         "delta1-monthly-backtest.timer",
         "delta1-freshness-check.timer",
         "delta1-paper-fib-entries.timer",
         "fib-cutover-finalize.timer",
-        "delta1-paper-exits.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -75,7 +75,7 @@
       }
     },
     "start_ts": "2026-06-29T22:08:54.947261+00:00",
-    "uptime_s": 64873.146491
+    "uptime_s": 64942.489251
   },
   "fib_server": {
     "account_positions_count": 8,
@@ -83,26 +83,26 @@
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 134,
+        "hits": 138,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 296
+        "ticks_run": 301
       },
       "equity": {
         "enabled": true,
         "errors": 0,
-        "hits": 73,
+        "hits": 77,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 1648
+        "ticks_run": 1693
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 13,
+        "hits": 16,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 1109
+        "ticks_run": 1139
       }
     },
     "cutover": {
@@ -151,12 +151,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-06-30T16:10:06.779788+00:00",
+    "ts_utc": "2026-06-30T16:11:16.618044+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 453,
+        "msgs": 459,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -168,7 +168,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 392,
+        "msgs": 397,
         "reconnects": 0
       },
       "equity_trades": {
@@ -209,7 +209,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1782835803.465453,
+      "last_reconciled_ts": 1782835871.932414,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -217,19 +217,19 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1782835802.9869845,
-      "last_heartbeat_age_sec": 2.9849815368652344,
+      "last_heartbeat": 1782835871.7616143,
+      "last_heartbeat_age_sec": 4.393794059753418,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
       "universe_size": 503
     },
     "ws": {
-      "bars_seen": 2221,
-      "last_bar_ts": 1782835803.8355322,
+      "bars_seen": 2248,
+      "last_bar_ts": 1782835861.3618188,
       "unique_symbols": 470
     }
   },
-  "pushed_at": 1782835808,
-  "pushed_at_iso": "2026-06-30T16:10:08Z"
+  "pushed_at": 1782835877,
+  "pushed_at_iso": "2026-06-30T16:11:17Z"
 }
