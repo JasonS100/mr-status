@@ -24,14 +24,14 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 22116
+    "uptime": 22186
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10678.29,
+      "equity": 10678.72,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -40,7 +40,7 @@
     "heartbeats": {
       "drift_loop": "2026-06-30T18:16:19.096645+00:00",
       "full_scan_loop": "2026-06-30T14:07:17.970660+00:00",
-      "heartbeat": "2026-06-30T18:28:56.477846+00:00",
+      "heartbeat": "2026-06-30T18:29:56.479360+00:00",
       "signal_loop": "2026-06-30T17:31:18.468252+00:00"
     },
     "last_scan_run_id": 27,
@@ -56,9 +56,9 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
         "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-exits.timer",
         "delta1-monthly-backtest.timer",
         "delta1-freshness-check.timer",
         "delta1-paper-fib-entries.timer",
@@ -76,7 +76,7 @@
       }
     },
     "start_ts": "2026-06-29T22:08:54.947261+00:00",
-    "uptime_s": 73216.247
+    "uptime_s": 73286.377206
   },
   "fib_server": {
     "account_positions_count": 7,
@@ -84,10 +84,10 @@
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 64,
+        "hits": 67,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 132
+        "ticks_run": 135
       },
       "equity": {
         "enabled": true,
@@ -95,15 +95,15 @@
         "hits": 46,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 767
+        "ticks_run": 787
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 14,
+        "hits": 15,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 508
+        "ticks_run": 522
       }
     },
     "cutover": {
@@ -152,12 +152,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-06-30T18:29:10.430768+00:00",
+    "ts_utc": "2026-06-30T18:30:20.126862+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 195,
+        "msgs": 200,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -169,7 +169,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 172,
+        "msgs": 179,
         "reconnects": 0
       },
       "equity_trades": {
@@ -189,10 +189,10 @@
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
-      "checked_at": 1782843880.9682977,
-      "summary": "ok"
+      "checked_at": null,
+      "summary": null
     },
-    "ok": true,
+    "ok": false,
     "options": {
       "degraded": null,
       "enabled": null,
@@ -201,27 +201,27 @@
       "order_submission_enabled": null
     },
     "reconcile": {
-      "last_reconciled_ts": 1782844143.6187875,
-      "source": "alpaca_rest",
-      "stale": false
+      "last_reconciled_ts": null,
+      "source": null,
+      "stale": null
     },
     "status": {
-      "dryrun": false,
+      "dryrun": null,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1782844143.47084,
-      "last_heartbeat_age_sec": 1.7371490001678467,
+      "last_heartbeat": null,
+      "last_heartbeat_age_sec": null,
       "open_positions": 0,
-      "order_submission_enabled": true,
-      "regime": "unknown_full",
-      "universe_size": 503
+      "order_submission_enabled": null,
+      "regime": null,
+      "universe_size": 0
     },
     "ws": {
-      "bars_seen": 594,
-      "last_bar_ts": 1782844143.7552912,
-      "unique_symbols": 365
+      "bars_seen": 630,
+      "last_bar_ts": 1782844201.456078,
+      "unique_symbols": 372
     }
   },
-  "pushed_at": 1782844151,
-  "pushed_at_iso": "2026-06-30T18:29:11Z"
+  "pushed_at": 1782844222,
+  "pushed_at_iso": "2026-06-30T18:30:22Z"
 }
