@@ -24,30 +24,30 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 4209
+    "uptime": 4270
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10696.78,
+      "equity": 10707.74,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 9,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-06-30T13:29:56.111256+00:00",
-      "heartbeat": "2026-06-30T13:29:56.111012+00:00",
-      "signal_loop": "2026-06-30T13:29:56.111293+00:00"
+      "drift_loop": "2026-06-30T13:30:59.705888+00:00",
+      "heartbeat": "2026-06-30T13:30:56.111650+00:00",
+      "signal_loop": "2026-06-30T13:30:59.705059+00:00"
     },
     "last_scan_run_id": 26,
     "last_scan_ts": "2026-06-29T14:07:14.723837+00:00",
-    "n_positions": 0,
+    "n_positions": 9,
     "n_targets": 15,
     "ok": true,
-    "portfolio_value": 100000.0,
+    "portfolio_value": 10690.52,
     "schedule": {
       "error": null,
       "full_scan_et": "09:45",
@@ -73,26 +73,26 @@
       }
     },
     "start_ts": "2026-06-29T22:08:54.947261+00:00",
-    "uptime_s": 55309.90028
+    "uptime_s": 55370.293803
   },
   "fib_server": {
-    "account_positions_count": 5,
+    "account_positions_count": 6,
     "books": {
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 194,
+        "hits": 200,
         "last_skip_reason": null,
         "submitted": 3,
-        "ticks_run": 261
+        "ticks_run": 268
       },
       "equity": {
         "enabled": true,
         "errors": 0,
-        "hits": 0,
+        "hits": 1,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 20
+        "ticks_run": 46
       },
       "options": {
         "enabled": true,
@@ -100,7 +100,7 @@
         "hits": 0,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 17
+        "ticks_run": 35
       }
     },
     "cutover": {
@@ -116,7 +116,7 @@
       "last_ts_iso": null
     },
     "ok": true,
-    "positions_open": 5,
+    "positions_open": 6,
     "quarterly_review": {
       "candidates_to_readd": null,
       "last_ts_iso": null,
@@ -149,12 +149,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-06-30T13:30:44.445285+00:00",
+    "ts_utc": "2026-06-30T13:31:44.919369+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 405,
+        "msgs": 413,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -166,13 +166,13 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 20,
+        "msgs": 27,
         "reconnects": 1
       },
       "equity_trades": {
         "connected": true,
         "last_error": null,
-        "msgs": 0,
+        "msgs": 6,
         "reconnects": 0
       },
       "options_trades": {
@@ -203,7 +203,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1782826230.8662841,
+      "last_reconciled_ts": 1782826300.4423409,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -211,19 +211,19 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1782826230.8636005,
-      "last_heartbeat_age_sec": 13.420339584350586,
+      "last_heartbeat": 1782826300.4410617,
+      "last_heartbeat_age_sec": 4.333768844604492,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
       "universe_size": 503
     },
     "ws": {
-      "bars_seen": 5,
-      "last_bar_ts": 1782825480.0572953,
-      "unique_symbols": 5
+      "bars_seen": 22,
+      "last_bar_ts": 1782826265.9209712,
+      "unique_symbols": 22
     }
   },
-  "pushed_at": 1782826245,
-  "pushed_at_iso": "2026-06-30T13:30:45Z"
+  "pushed_at": 1782826305,
+  "pushed_at_iso": "2026-06-30T13:31:45Z"
 }
