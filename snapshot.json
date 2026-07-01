@@ -5,33 +5,40 @@
   },
   "host": "droplet",
   "options": {
-    "degraded": null,
-    "enabled": null,
+    "degraded": false,
+    "enabled": true,
     "open_structures": 0,
-    "opens_today": null,
-    "order_submission_enabled": null
+    "opens_today": {
+      "count": 1,
+      "daily_cap": 3,
+      "date": "2026-07-01",
+      "underlyings": [
+        "IBM"
+      ]
+    },
+    "order_submission_enabled": true
   },
-  "pushed_at": 1782920711,
-  "pushed_at_iso": "2026-07-01T15:45:11Z",
+  "pushed_at": 1782920767,
+  "pushed_at_iso": "2026-07-01T15:46:07Z",
   "reconcile": {
-    "last_reconciled_ts": 1782920693.0988424,
+    "last_reconciled_ts": 1782920763.4314675,
     "source": "alpaca_rest",
     "stale": false
   },
   "status": {
     "dryrun": false,
     "errors_last_5min": 0,
-    "heartbeat_consecutive_errors": 827,
-    "last_heartbeat": 1782920693.0978007,
-    "last_heartbeat_age_sec": 11.57780647277832,
+    "heartbeat_consecutive_errors": 831,
+    "last_heartbeat": 1782920763.4305847,
+    "last_heartbeat_age_sec": 2.3562052249908447,
     "open_positions": 0,
     "order_submission_enabled": true,
     "regime": "unknown",
     "universe_size": 503
   },
   "ws": {
-    "bars_seen": 4451,
-    "last_bar_ts": 1782920700.2199857,
+    "bars_seen": 4483,
+    "last_bar_ts": 1782920763.5677485,
     "unique_symbols": 496
   }
 }
