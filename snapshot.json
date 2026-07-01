@@ -5,25 +5,30 @@
   },
   "host": "droplet",
   "options": {
-    "degraded": null,
-    "enabled": null,
+    "degraded": false,
+    "enabled": true,
     "open_structures": 0,
-    "opens_today": null,
-    "order_submission_enabled": null
+    "opens_today": {
+      "count": 0,
+      "daily_cap": 3,
+      "date": "2026-07-01",
+      "underlyings": []
+    },
+    "order_submission_enabled": true
   },
-  "pushed_at": 1782912611,
-  "pushed_at_iso": "2026-07-01T13:30:11Z",
+  "pushed_at": 1782912667,
+  "pushed_at_iso": "2026-07-01T13:31:07Z",
   "reconcile": {
-    "last_reconciled_ts": 1782912598.5662146,
+    "last_reconciled_ts": 1782912657.481466,
     "source": "alpaca_rest",
     "stale": false
   },
   "status": {
     "dryrun": false,
     "errors_last_5min": 0,
-    "heartbeat_consecutive_errors": 354,
-    "last_heartbeat": 1782912598.5654662,
-    "last_heartbeat_age_sec": 6.065896511077881,
+    "heartbeat_consecutive_errors": 357,
+    "last_heartbeat": 1782912657.4804451,
+    "last_heartbeat_age_sec": 7.307600736618042,
     "open_positions": 0,
     "order_submission_enabled": true,
     "regime": "unknown",
