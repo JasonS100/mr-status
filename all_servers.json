@@ -24,7 +24,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 12982
+    "uptime": 13047
   },
   "delta1_server": {
     "bootstrap": true,
@@ -38,9 +38,9 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-02T05:04:11.652172+00:00",
-      "heartbeat": "2026-07-02T05:04:11.651939+00:00",
-      "signal_loop": "2026-07-02T05:04:11.744773+00:00"
+      "drift_loop": "2026-07-02T05:05:11.653202+00:00",
+      "heartbeat": "2026-07-02T05:05:11.652779+00:00",
+      "signal_loop": "2026-07-02T05:05:11.745881+00:00"
     },
     "last_scan_run_id": 30,
     "last_scan_ts": "2026-07-01T15:07:48.841909+00:00",
@@ -55,10 +55,10 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
         "delta1-paper-tailrisk.timer",
-        "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-exits.timer",
+        "delta1-spread-exits.timer",
         "delta1-freshness-check.timer",
         "delta1-paper-fib-entries.timer",
         "fib-cutover-finalize.timer",
@@ -78,7 +78,7 @@
       }
     },
     "start_ts": "2026-07-01T23:04:11.133851+00:00",
-    "uptime_s": 21618.155757
+    "uptime_s": 21683.170696
   },
   "fib_server": {
     "account_positions_count": 12,
@@ -156,12 +156,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-07-02T05:04:28.913838+00:00",
+    "ts_utc": "2026-07-02T05:05:33.922448+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 1889,
+        "msgs": 1893,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -210,7 +210,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1782968662.0159438,
+      "last_reconciled_ts": 1782968728.2910385,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -218,8 +218,8 @@
       "dryrun": false,
       "errors_last_5min": 30,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1782968662.0082402,
-      "last_heartbeat_age_sec": 6.7637388706207275,
+      "last_heartbeat": 1782968728.27723,
+      "last_heartbeat_age_sec": 5.49432897567749,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
@@ -231,6 +231,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1782968669,
-  "pushed_at_iso": "2026-07-02T05:04:29Z"
+  "pushed_at": 1782968734,
+  "pushed_at_iso": "2026-07-02T05:05:34Z"
 }
