@@ -24,14 +24,14 @@
     "mode": "DEFEND",
     "ok": true,
     "stream_connected": false,
-    "uptime": 64272
+    "uptime": 64333
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10745.04,
+      "equity": 10748.75,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 16,
@@ -40,7 +40,7 @@
     "heartbeats": {
       "drift_loop": "2026-07-02T19:15:43.370329+00:00",
       "full_scan_loop": "2026-07-02T10:22:20.519484+00:00",
-      "heartbeat": "2026-07-02T19:19:12.836036+00:00",
+      "heartbeat": "2026-07-02T19:20:12.839801+00:00",
       "signal_loop": "2026-07-02T18:30:42.783974+00:00"
     },
     "last_scan_run_id": 34,
@@ -56,16 +56,16 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
-        "delta1-paper-tailrisk.timer",
-        "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-exits.timer",
+        "delta1-spread-exits.timer",
         "delta1-freshness-check.timer",
         "delta1-paper-fib-entries.timer",
         "fib-cutover-finalize.timer",
         "delta1-monthly-backtest.timer",
         "delta1-paper-explosion.timer",
         "delta1-paper-options-overlay.timer",
+        "delta1-paper-tailrisk.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -79,7 +79,7 @@
       }
     },
     "start_ts": "2026-07-01T23:04:11.133851+00:00",
-    "uptime_s": 72908.265915
+    "uptime_s": 72969.219968
   },
   "fib_server": {
     "account_positions_count": 11,
@@ -95,18 +95,18 @@
       "equity": {
         "enabled": true,
         "errors": 0,
-        "hits": 501,
+        "hits": 502,
         "last_skip_reason": null,
         "submitted": 1,
-        "ticks_run": 1578
+        "ticks_run": 1579
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 1230,
+        "hits": 1232,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 1046
+        "ticks_run": 1048
       }
     },
     "cutover": {
@@ -155,12 +155,12 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-07-02T19:19:18.937336+00:00",
+    "ts_utc": "2026-07-02T19:20:19.628860+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 335,
+        "msgs": 340,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -172,7 +172,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 516,
+        "msgs": 524,
         "reconnects": 0
       },
       "equity_trades": {
@@ -209,7 +209,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1783019948.4825168,
+      "last_reconciled_ts": 1783020002.0915565,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -217,19 +217,19 @@
       "dryrun": false,
       "errors_last_5min": 4,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1783019948.220419,
-      "last_heartbeat_age_sec": 4.99532151222229,
+      "last_heartbeat": 1783020001.7076511,
+      "last_heartbeat_age_sec": 10.00087308883667,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
       "universe_size": 503
     },
     "ws": {
-      "bars_seen": 7439,
-      "last_bar_ts": 1783019940.2275467,
+      "bars_seen": 7471,
+      "last_bar_ts": 1783020003.2464023,
       "unique_symbols": 498
     }
   },
-  "pushed_at": 1783019959,
-  "pushed_at_iso": "2026-07-02T19:19:19Z"
+  "pushed_at": 1783020020,
+  "pushed_at_iso": "2026-07-02T19:20:20Z"
 }
