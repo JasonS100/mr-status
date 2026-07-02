@@ -24,14 +24,14 @@
     "mode": "DEFEND",
     "ok": true,
     "stream_connected": false,
-    "uptime": 56598
+    "uptime": 56660
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10718.41,
+      "equity": 10721.18,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 16,
@@ -40,7 +40,7 @@
     "heartbeats": {
       "drift_loop": "2026-07-02T17:00:33.448142+00:00",
       "full_scan_loop": "2026-07-02T10:22:20.519484+00:00",
-      "heartbeat": "2026-07-02T17:11:12.643682+00:00",
+      "heartbeat": "2026-07-02T17:12:12.644338+00:00",
       "signal_loop": "2026-07-02T16:30:32.763091+00:00"
     },
     "last_scan_run_id": 34,
@@ -56,8 +56,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "delta1-freshness-check.timer",
@@ -79,7 +79,7 @@
       }
     },
     "start_ts": "2026-07-01T23:04:11.133851+00:00",
-    "uptime_s": 65234.024675
+    "uptime_s": 65296.040072
   },
   "fib_server": {
     "account_positions_count": 10,
@@ -90,23 +90,23 @@
         "hits": 0,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 571
+        "ticks_run": 576
       },
       "equity": {
         "enabled": true,
         "errors": 0,
-        "hits": 817,
+        "hits": 820,
         "last_skip_reason": null,
         "submitted": 3,
-        "ticks_run": 3176
+        "ticks_run": 3198
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 2026,
+        "hits": 2043,
         "last_skip_reason": null,
         "submitted": 4,
-        "ticks_run": 2113
+        "ticks_run": 2129
       }
     },
     "cutover": {
@@ -155,37 +155,37 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-07-02T17:11:20.392972+00:00",
+    "ts_utc": "2026-07-02T17:12:24.384949+00:00",
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 859,
+        "msgs": 863,
         "reconnects": 0
       },
       "crypto_trades": {
         "connected": true,
         "last_error": null,
         "msgs": 0,
-        "reconnects": 0
+        "reconnects": 1
       },
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 1035,
+        "msgs": 1045,
         "reconnects": 0
       },
       "equity_trades": {
         "connected": true,
         "last_error": null,
         "msgs": 81,
-        "reconnects": 0
+        "reconnects": 1
       },
       "options_trades": {
         "connected": true,
         "last_error": null,
         "msgs": 14,
-        "reconnects": 0
+        "reconnects": 1
       }
     }
   },
@@ -209,7 +209,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1783012261.250975,
+      "last_reconciled_ts": 1783012317.2465947,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -217,19 +217,19 @@
       "dryrun": false,
       "errors_last_5min": 1,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1783012260.4701746,
-      "last_heartbeat_age_sec": 10.00092601776123,
+      "last_heartbeat": 1783012341.1851494,
+      "last_heartbeat_age_sec": 0.0016179084777832031,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
       "universe_size": 503
     },
     "ws": {
-      "bars_seen": 3335,
-      "last_bar_ts": 1783012262.4467642,
+      "bars_seen": 3359,
+      "last_bar_ts": 1783012320.033879,
       "unique_symbols": 489
     }
   },
-  "pushed_at": 1783012286,
-  "pushed_at_iso": "2026-07-02T17:11:26Z"
+  "pushed_at": 1783012348,
+  "pushed_at_iso": "2026-07-02T17:12:28Z"
 }
