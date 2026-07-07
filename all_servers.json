@@ -6,32 +6,32 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 21,
-        "intention_count": 9,
-        "near_miss_count": 17,
-        "order_count": 9,
+        "intention_count": 1,
+        "near_miss_count": 18,
+        "order_count": 1,
         "raw_candidate_count": 503,
         "scored_candidate_count": 21,
         "universe_symbol_count": 503
       },
       "degraded": false,
-      "duration_ms": 1855,
+      "duration_ms": 1557,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "universe": "sp500",
       "universe_size": 503
     },
-    "last_tick_at": "2026-07-07T15:27:25.059Z",
+    "last_tick_at": "2026-07-07T15:37:26.936Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 4199
+    "uptime": 4265
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10595.78,
+      "equity": 10589.66,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 28,
@@ -39,7 +39,7 @@
     },
     "heartbeats": {
       "drift_loop": "2026-07-07T15:34:25.252360+00:00",
-      "heartbeat": "2026-07-07T15:36:18.915608+00:00",
+      "heartbeat": "2026-07-07T15:38:18.917196+00:00",
       "signal_loop": "2026-07-07T15:33:24.958642+00:00"
     },
     "last_scan_run_id": 43,
@@ -55,8 +55,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "delta1-freshness-check.timer",
@@ -78,7 +78,7 @@
       }
     },
     "start_ts": "2026-07-07T13:33:18.566130+00:00",
-    "uptime_s": 7435.885899
+    "uptime_s": 7501.797537
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -94,18 +94,18 @@
       "equity": {
         "enabled": true,
         "errors": 0,
-        "hits": 1388,
+        "hits": 1394,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 2833
+        "ticks_run": 2839
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 1563,
+        "hits": 1566,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 1855
+        "ticks_run": 1858
       }
     },
     "cutover": {
@@ -188,7 +188,7 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-07-07T15:37:13.935128+00:00",
+    "ts_utc": "2026-07-07T15:38:19.054940+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -230,7 +230,7 @@
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 1588,
+        "msgs": 1596,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -242,7 +242,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 1096,
+        "msgs": 1103,
         "reconnects": 1
       },
       "equity_trades": {
@@ -279,7 +279,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1783438623.3939795,
+      "last_reconciled_ts": 1783438671.4089358,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -287,8 +287,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1783438623.2552998,
-      "last_heartbeat_age_sec": 9.647704362869263,
+      "last_heartbeat": 1783438671.407113,
+      "last_heartbeat_age_sec": 18.460309982299805,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "unknown_full",
@@ -300,6 +300,6 @@
       "unique_symbols": 4
     }
   },
-  "pushed_at": 1783438634,
-  "pushed_at_iso": "2026-07-07T15:37:14Z"
+  "pushed_at": 1783438700,
+  "pushed_at_iso": "2026-07-07T15:38:20Z"
 }
