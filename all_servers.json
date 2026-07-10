@@ -39,14 +39,14 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 18244
+    "uptime": 18304
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10907.9,
+      "equity": 10911.97,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
@@ -56,7 +56,7 @@
       "drift_loop": "2026-07-10T19:54:16.157239+00:00",
       "eod_flatten_loop": "2026-07-10T19:55:05.417703+00:00",
       "full_scan_loop": "2026-07-10T10:22:16.099932+00:00",
-      "heartbeat": "2026-07-10T19:59:05.084618+00:00",
+      "heartbeat": "2026-07-10T20:00:05.085653+00:00",
       "signal_loop": "2026-07-10T19:09:14.776861+00:00"
     },
     "last_scan_run_id": 50,
@@ -72,11 +72,11 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
         "delta1-paper-tailrisk.timer",
-        "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-no-submission-alert.timer",
+        "delta1-paper-exits.timer",
+        "delta1-spread-exits.timer",
         "delta1-freshness-check.timer",
         "fib-cutover-finalize.timer",
         "delta1-paper-fib-entries.timer",
@@ -97,7 +97,7 @@
       }
     },
     "start_ts": "2026-07-10T00:31:03.136566+00:00",
-    "uptime_s": 70120.465308
+    "uptime_s": 70181.205554
   },
   "fib_server": {
     "account_positions_count": 12,
@@ -108,23 +108,23 @@
         "hits": 66,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 396
+        "ticks_run": 403
       },
       "equity": {
         "enabled": true,
         "errors": 2,
-        "hits": 129,
+        "hits": 133,
         "last_skip_reason": null,
         "submitted": 1,
-        "ticks_run": 2007
+        "ticks_run": 2034
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 114,
+        "hits": 117,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 1314
+        "ticks_run": 1332
       }
     },
     "cutover": {
@@ -207,7 +207,7 @@
       "panic_exits": 0,
       "triggers_fired": 0
     },
-    "ts_utc": "2026-07-10T19:59:43.074081+00:00",
+    "ts_utc": "2026-07-10T20:00:43.744316+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -249,7 +249,7 @@
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 556,
+        "msgs": 563,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -261,7 +261,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 936,
+        "msgs": 957,
         "reconnects": 0
       },
       "equity_trades": {
@@ -292,13 +292,13 @@
       "opens_today": {
         "count": 0,
         "daily_cap": 3,
-        "date": null,
+        "date": "2026-07-10",
         "underlyings": []
       },
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1783713568.4892843,
+      "last_reconciled_ts": 1783713624.5743248,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -306,19 +306,19 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1783713568.3682275,
-      "last_heartbeat_age_sec": 6.535481691360474,
+      "last_heartbeat": 1783713624.5715964,
+      "last_heartbeat_age_sec": 10.001514673233032,
       "open_positions": 3,
       "order_submission_enabled": true,
       "regime": "full_size",
       "universe_size": 24
     },
     "ws": {
-      "bars_seen": 0,
-      "last_bar_ts": 0.0,
-      "unique_symbols": 0
+      "bars_seen": 24,
+      "last_bar_ts": 1783713616.87229,
+      "unique_symbols": 24
     }
   },
-  "pushed_at": 1783713583,
-  "pushed_at_iso": "2026-07-10T19:59:43Z"
+  "pushed_at": 1783713644,
+  "pushed_at_iso": "2026-07-10T20:00:44Z"
 }
