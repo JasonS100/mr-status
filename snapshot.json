@@ -5,16 +5,21 @@
   },
   "host": "droplet",
   "options": {
-    "degraded": null,
-    "enabled": null,
+    "degraded": false,
+    "enabled": true,
     "open_structures": 0,
-    "opens_today": null,
-    "order_submission_enabled": null
+    "opens_today": {
+      "count": 0,
+      "daily_cap": 3,
+      "date": "2026-07-12",
+      "underlyings": []
+    },
+    "order_submission_enabled": true
   },
-  "pushed_at": 1783897030,
-  "pushed_at_iso": "2026-07-12T22:57:10Z",
+  "pushed_at": 1783897084,
+  "pushed_at_iso": "2026-07-12T22:58:04Z",
   "reconcile": {
-    "last_reconciled_ts": 1783897008.1775167,
+    "last_reconciled_ts": 1783897064.8720176,
     "source": "alpaca_rest",
     "stale": false
   },
@@ -22,8 +27,8 @@
     "dryrun": false,
     "errors_last_5min": 0,
     "heartbeat_consecutive_errors": 0,
-    "last_heartbeat": 1783897008.1759949,
-    "last_heartbeat_age_sec": 4.656188488006592,
+    "last_heartbeat": 1783897064.8707814,
+    "last_heartbeat_age_sec": 9.808518409729004,
     "open_positions": 3,
     "order_submission_enabled": true,
     "regime": "full_size",
