@@ -39,22 +39,22 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 254811
+    "uptime": 254874
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10582.42,
+      "equity": 10567.86,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-13T13:42:11.310854+00:00",
-      "heartbeat": "2026-07-13T13:42:11.310518+00:00",
+      "drift_loop": "2026-07-13T13:43:11.312112+00:00",
+      "heartbeat": "2026-07-13T13:43:11.311787+00:00",
       "signal_loop": "2026-07-13T13:30:11.371303+00:00"
     },
     "last_scan_run_id": null,
@@ -94,7 +94,7 @@
       }
     },
     "start_ts": "2026-07-13T11:19:11.097765+00:00",
-    "uptime_s": 8600.321118
+    "uptime_s": 8662.701306
   },
   "fib_server": {
     "account_positions_count": 14,
@@ -102,18 +102,18 @@
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 3206,
+        "hits": 3209,
         "last_skip_reason": null,
         "submitted": 9,
-        "ticks_run": 8560
+        "ticks_run": 8568
       },
       "equity": {
         "enabled": true,
         "errors": 0,
-        "hits": 15,
+        "hits": 16,
         "last_skip_reason": null,
         "submitted": 0,
-        "ticks_run": 232
+        "ticks_run": 251
       },
       "options": {
         "enabled": true,
@@ -121,7 +121,7 @@
         "hits": 13,
         "last_skip_reason": null,
         "submitted": 4,
-        "ticks_run": 155
+        "ticks_run": 168
       }
     },
     "cutover": {
@@ -199,12 +199,12 @@
     },
     "server_start_ts": "2026-07-11T16:19:12.948299+00:00",
     "tail_risk": {
-      "last_trigger_detail": "equity/AMD entry=$548.7493 close=$528.2900 PANIC_MOVE(-3.73%, sl=1.50%)",
-      "last_trigger_ts": "2026-07-13T13:42:00.189739+00:00",
+      "last_trigger_detail": "equity/AMD entry=$548.7493 close=$528.8300 PANIC_MOVE(-3.63%, sl=1.50%)",
+      "last_trigger_ts": "2026-07-13T13:43:00.188780+00:00",
       "panic_exits": 0,
-      "triggers_fired": 4
+      "triggers_fired": 5
     },
-    "ts_utc": "2026-07-13T13:42:30.914249+00:00",
+    "ts_utc": "2026-07-13T13:43:33.344560+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -270,7 +270,7 @@
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 11958,
+        "msgs": 11964,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -282,7 +282,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 135,
+        "msgs": 143,
         "reconnects": 1
       },
       "equity_trades": {
@@ -302,7 +302,7 @@
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
-      "checked_at": 1783949845.0632055,
+      "checked_at": 1783950145.85709,
       "summary": "fmp_fail"
     },
     "ok": true,
@@ -319,7 +319,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1783950141.1219618,
+      "last_reconciled_ts": 1783950208.0654347,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -327,8 +327,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1783950141.1033266,
-      "last_heartbeat_age_sec": 4.753465414047241,
+      "last_heartbeat": 1783950207.9611945,
+      "last_heartbeat_age_sec": 3.8525984287261963,
       "open_positions": 1,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -340,6 +340,6 @@
       "unique_symbols": 24
     }
   },
-  "pushed_at": 1783950151,
-  "pushed_at_iso": "2026-07-13T13:42:31Z"
+  "pushed_at": 1783950214,
+  "pushed_at_iso": "2026-07-13T13:43:34Z"
 }
