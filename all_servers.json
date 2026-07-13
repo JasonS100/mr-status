@@ -39,22 +39,22 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 276224
+    "uptime": 276286
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10461.4,
+      "equity": 10456.99,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-13T19:39:11.769106+00:00",
-      "heartbeat": "2026-07-13T19:39:11.768593+00:00",
+      "drift_loop": "2026-07-13T19:40:11.771785+00:00",
+      "heartbeat": "2026-07-13T19:40:11.770402+00:00",
       "signal_loop": "2026-07-13T19:30:12.099635+00:00"
     },
     "last_scan_run_id": null,
@@ -70,8 +70,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
         "delta1-paper-tailrisk.timer",
+        "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-no-submission-alert.timer",
@@ -94,7 +94,7 @@
       }
     },
     "start_ts": "2026-07-13T11:19:11.097765+00:00",
-    "uptime_s": 30013.36187
+    "uptime_s": 30074.497624
   },
   "fib_server": {
     "account_positions_count": 12,
@@ -110,18 +110,18 @@
       "equity": {
         "enabled": true,
         "errors": 7,
-        "hits": 774,
+        "hits": 780,
         "last_skip_reason": null,
-        "submitted": 13,
-        "ticks_run": 5683
+        "submitted": 14,
+        "ticks_run": 5688
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 2493,
+        "hits": 2508,
         "last_skip_reason": null,
         "submitted": 7,
-        "ticks_run": 3715
+        "ticks_run": 3721
       }
     },
     "cutover": {
@@ -199,12 +199,12 @@
     },
     "server_start_ts": "2026-07-11T16:19:12.948299+00:00",
     "tail_risk": {
-      "last_trigger_detail": "equity/RH entry=$167.9700 close=$161.7500 PANIC_MOVE(-3.70%, sl=1.50%)",
-      "last_trigger_ts": "2026-07-13T19:27:00.232906+00:00",
+      "last_trigger_detail": "equity/RH entry=$167.9700 close=$162.3450 PANIC_MOVE(-3.35%, sl=1.50%)",
+      "last_trigger_ts": "2026-07-13T19:40:00.217264+00:00",
       "panic_exits": 0,
-      "triggers_fired": 25
+      "triggers_fired": 26
     },
-    "ts_utc": "2026-07-13T19:39:23.905101+00:00",
+    "ts_utc": "2026-07-13T19:40:25.065406+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -270,7 +270,7 @@
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 14052,
+        "msgs": 14054,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -282,13 +282,13 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 2857,
+        "msgs": 2867,
         "reconnects": 1
       },
       "equity_trades": {
         "connected": true,
         "last_error": null,
-        "msgs": 276,
+        "msgs": 289,
         "reconnects": 0
       },
       "options_trades": {
@@ -319,7 +319,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1783971544.821439,
+      "last_reconciled_ts": 1783971612.3281076,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -327,8 +327,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1783971543.7794907,
-      "last_heartbeat_age_sec": 18.825193643569946,
+      "last_heartbeat": 1783971611.0729163,
+      "last_heartbeat_age_sec": 5.001905918121338,
       "open_positions": 1,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -340,6 +340,6 @@
       "unique_symbols": 24
     }
   },
-  "pushed_at": 1783971564,
-  "pushed_at_iso": "2026-07-13T19:39:24Z"
+  "pushed_at": 1783971625,
+  "pushed_at_iso": "2026-07-13T19:40:25Z"
 }
