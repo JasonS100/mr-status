@@ -39,22 +39,22 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 265475
+    "uptime": 265540
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10522.09,
+      "equity": 10521.69,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-13T16:40:11.540237+00:00",
-      "heartbeat": "2026-07-13T16:40:11.539733+00:00",
+      "drift_loop": "2026-07-13T16:41:11.541791+00:00",
+      "heartbeat": "2026-07-13T16:41:11.541439+00:00",
       "signal_loop": "2026-07-13T16:30:11.715962+00:00"
     },
     "last_scan_run_id": null,
@@ -70,8 +70,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "delta1-no-submission-alert.timer",
@@ -94,34 +94,34 @@
       }
     },
     "start_ts": "2026-07-13T11:19:11.097765+00:00",
-    "uptime_s": 19263.727987
+    "uptime_s": 19328.52452
   },
   "fib_server": {
-    "account_positions_count": 16,
+    "account_positions_count": 15,
     "books": {
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 3568,
+        "hits": 3570,
         "last_skip_reason": null,
         "submitted": 9,
-        "ticks_run": 9235
+        "ticks_run": 9240
       },
       "equity": {
         "enabled": true,
         "errors": 7,
-        "hits": 257,
+        "hits": 259,
         "last_skip_reason": null,
         "submitted": 4,
-        "ticks_run": 2971
+        "ticks_run": 2990
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 252,
+        "hits": 270,
         "last_skip_reason": null,
         "submitted": 7,
-        "ticks_run": 1947
+        "ticks_run": 1962
       }
     },
     "cutover": {
@@ -137,7 +137,7 @@
       "last_ts_iso": null
     },
     "ok": true,
-    "positions_open": 16,
+    "positions_open": 15,
     "quarterly_review": {
       "candidates_to_readd": null,
       "last_ts_iso": null,
@@ -204,7 +204,7 @@
       "panic_exits": 0,
       "triggers_fired": 18
     },
-    "ts_utc": "2026-07-13T16:40:14.076116+00:00",
+    "ts_utc": "2026-07-13T16:41:19.016447+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -270,7 +270,7 @@
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 13052,
+        "msgs": 13060,
         "reconnects": 0
       },
       "crypto_trades": {
@@ -282,13 +282,13 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 1505,
+        "msgs": 1513,
         "reconnects": 1
       },
       "equity_trades": {
         "connected": true,
         "last_error": null,
-        "msgs": 100,
+        "msgs": 110,
         "reconnects": 0
       },
       "options_trades": {
@@ -319,7 +319,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1783960808.1508446,
+      "last_reconciled_ts": 1783960861.078488,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -327,8 +327,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1783960806.9210112,
-      "last_heartbeat_age_sec": 5.000528335571289,
+      "last_heartbeat": 1783960860.9594603,
+      "last_heartbeat_age_sec": 10.000916004180908,
       "open_positions": 1,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -340,6 +340,6 @@
       "unique_symbols": 24
     }
   },
-  "pushed_at": 1783960815,
-  "pushed_at_iso": "2026-07-13T16:40:15Z"
+  "pushed_at": 1783960880,
+  "pushed_at_iso": "2026-07-13T16:41:20Z"
 }
