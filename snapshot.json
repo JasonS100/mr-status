@@ -1,37 +1,42 @@
 {
   "diagnostics": {
-    "checked_at": null,
-    "summary": null
+    "checked_at": 1784122113.2044795,
+    "summary": "alpaca_options_fail"
   },
   "host": "droplet",
   "options": {
-    "degraded": null,
-    "enabled": null,
+    "degraded": false,
+    "enabled": true,
     "open_structures": 0,
-    "opens_today": null,
-    "order_submission_enabled": null
+    "opens_today": {
+      "count": 0,
+      "daily_cap": 3,
+      "date": "2026-07-15",
+      "underlyings": []
+    },
+    "order_submission_enabled": true
   },
-  "pushed_at": 1784122207,
-  "pushed_at_iso": "2026-07-15T13:30:07Z",
+  "pushed_at": 1784122259,
+  "pushed_at_iso": "2026-07-15T13:30:59Z",
   "reconcile": {
-    "last_reconciled_ts": null,
-    "source": null,
-    "stale": null
+    "last_reconciled_ts": 1784122255.1381867,
+    "source": "alpaca_rest",
+    "stale": false
   },
   "status": {
-    "dryrun": null,
-    "errors_last_5min": 0,
+    "dryrun": false,
+    "errors_last_5min": 1,
     "heartbeat_consecutive_errors": 0,
-    "last_heartbeat": null,
-    "last_heartbeat_age_sec": null,
-    "open_positions": 0,
-    "order_submission_enabled": null,
-    "regime": null,
-    "universe_size": 0
+    "last_heartbeat": 1784122255.1373155,
+    "last_heartbeat_age_sec": 0.09161853790283203,
+    "open_positions": 1,
+    "order_submission_enabled": true,
+    "regime": "full_size",
+    "universe_size": 24
   },
   "ws": {
-    "bars_seen": 63,
-    "last_bar_ts": 1784036191.3196132,
+    "bars_seen": 64,
+    "last_bar_ts": 1784122229.987777,
     "unique_symbols": 24
   }
 }
