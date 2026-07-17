@@ -14,7 +14,7 @@
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 16156,
+      "duration_ms": 15354,
       "fmp_degraded": false,
       "mode": "DEFEND",
       "submissionDiagnostics": {
@@ -23,7 +23,7 @@
         "broker_accepted_count": 0,
         "broker_submit_attempt_count": 0,
         "buy_count": 0,
-        "consecutive_zero_buy_ticks": 587,
+        "consecutive_zero_buy_ticks": 588,
         "early_halt_reason": "market_closed",
         "intention_count": 6,
         "market_open": false,
@@ -35,29 +35,29 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-07-17T13:00:36.830Z",
+    "last_tick_at": "2026-07-17T13:07:10.713Z",
     "mode": "DEFEND",
     "ok": true,
     "stream_connected": false,
-    "uptime": 598264
+    "uptime": 598329
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 9725.43,
+      "equity": 9718.13,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 14,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-17T13:06:18.650144+00:00",
+      "drift_loop": "2026-07-17T13:07:18.650592+00:00",
       "eod_flatten_loop": "2026-07-16T19:55:17.496499+00:00",
       "full_scan_loop": "2026-07-17T10:22:26.369101+00:00",
-      "heartbeat": "2026-07-17T13:06:19.593213+00:00",
-      "signal_loop": "2026-07-17T13:06:03.271784+00:00",
+      "heartbeat": "2026-07-17T13:07:19.593794+00:00",
+      "signal_loop": "2026-07-17T13:07:03.272348+00:00",
       "tail_risk_loop": "2026-07-16T16:05:43.932594+00:00"
     },
     "last_scan_run_id": 58,
@@ -97,7 +97,7 @@
       }
     },
     "start_ts": "2026-07-13T11:19:11.097765+00:00",
-    "uptime_s": 352053.268521
+    "uptime_s": 352118.253553
   },
   "fib_server": {
     "account_positions_count": 16,
@@ -108,7 +108,7 @@
         "hits": 7902,
         "last_skip_reason": null,
         "submitted": 33,
-        "ticks_run": 27696
+        "ticks_run": 27698
       },
       "equity": {
         "enabled": true,
@@ -116,7 +116,7 @@
         "hits": 5553,
         "last_skip_reason": null,
         "submitted": 24,
-        "ticks_run": 26555
+        "ticks_run": 26556
       },
       "options": {
         "enabled": true,
@@ -124,7 +124,7 @@
         "hits": 9904,
         "last_skip_reason": null,
         "submitted": 43,
-        "ticks_run": 17373
+        "ticks_run": 17374
       }
     },
     "cutover": {
@@ -204,12 +204,12 @@
     },
     "server_start_ts": "2026-07-11T16:19:12.948299+00:00",
     "tail_risk": {
-      "last_trigger_detail": "options/ORCL260828C00125000 underlying=ORCL ul_close=$120.8900 UL_PANIC_MOVE(-4.31%, thr=3.00%)",
-      "last_trigger_ts": "2026-07-17T12:55:00.004785+00:00",
+      "last_trigger_detail": "options/ORCL260828C00125000 underlying=ORCL ul_close=$121.0300 UL_PANIC_MOVE(-4.20%, thr=3.00%)",
+      "last_trigger_ts": "2026-07-17T13:07:00.002852+00:00",
       "panic_exits": 2,
-      "triggers_fired": 56
+      "triggers_fired": 57
     },
-    "ts_utc": "2026-07-17T13:06:43.966540+00:00",
+    "ts_utc": "2026-07-17T13:07:48.929545+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -275,7 +275,7 @@
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 40856,
+        "msgs": 40862,
         "reconnects": 1
       },
       "crypto_trades": {
@@ -287,7 +287,7 @@
       "equity_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 12581,
+        "msgs": 12582,
         "reconnects": 14
       },
       "equity_trades": {
@@ -324,7 +324,7 @@
       "order_submission_enabled": true
     },
     "reconcile": {
-      "last_reconciled_ts": 1784293598.452634,
+      "last_reconciled_ts": 1784293663.7703187,
       "source": "alpaca_rest",
       "stale": false
     },
@@ -332,8 +332,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1784293598.3405168,
-      "last_heartbeat_age_sec": 5.00174617767334,
+      "last_heartbeat": 1784293663.6788435,
+      "last_heartbeat_age_sec": 5.001522541046143,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -345,6 +345,6 @@
       "unique_symbols": 24
     }
   },
-  "pushed_at": 1784293604,
-  "pushed_at_iso": "2026-07-17T13:06:44Z"
+  "pushed_at": 1784293669,
+  "pushed_at_iso": "2026-07-17T13:07:49Z"
 }
