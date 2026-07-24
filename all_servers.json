@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 190019
+    "uptime": 190079
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,9 +53,9 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-24T20:30:34.588624+00:00",
-      "heartbeat": "2026-07-24T20:30:34.588261+00:00",
-      "signal_loop": "2026-07-24T20:30:34.691384+00:00"
+      "drift_loop": "2026-07-24T20:31:34.590184+00:00",
+      "heartbeat": "2026-07-24T20:31:34.589287+00:00",
+      "signal_loop": "2026-07-24T20:31:34.692709+00:00"
     },
     "last_scan_run_id": 72,
     "last_scan_ts": "2026-07-24T10:22:42.125400+00:00",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-07-24T20:19:34.523381+00:00",
-    "uptime_s": 671.258098
+    "uptime_s": 731.473557
   },
   "fib_server": {
     "account_positions_count": 9,
@@ -104,26 +104,26 @@
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 11290,
+        "hits": 11293,
         "last_skip_reason": null,
         "submitted": 59,
-        "ticks_run": 60281
+        "ticks_run": 60287
       },
       "equity": {
         "enabled": true,
         "errors": 12,
-        "hits": 15282,
+        "hits": 15341,
         "last_skip_reason": null,
         "submitted": 53,
-        "ticks_run": 64919
+        "ticks_run": 64974
       },
       "options": {
         "enabled": true,
         "errors": 0,
-        "hits": 23027,
+        "hits": 23069,
         "last_skip_reason": null,
         "submitted": 100,
-        "ticks_run": 42770
+        "ticks_run": 42808
       }
     },
     "cutover": {
@@ -208,7 +208,7 @@
       "panic_exits": 5,
       "triggers_fired": 188
     },
-    "ts_utc": "2026-07-24T20:30:45.210039+00:00",
+    "ts_utc": "2026-07-24T20:31:45.499556+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -217,23 +217,21 @@
       },
       "equity": {
         "by_symbol": {
-          "AMD": 4046.62,
-          "CRWD": -14793.56,
-          "HD": -13369.06,
-          "HYG": -6.16,
-          "IWM": 6.29,
-          "JPM": -246.07,
-          "META": -69.01,
-          "QQQ": 113.25,
-          "RH": -14627.34,
-          "SMH": -366.66,
-          "SPY": 656.36,
-          "XLF": -14871.21
+          "CRWD": 12270.08,
+          "HD": -13899.06,
+          "IWM": -120.09,
+          "META": -265.86,
+          "MSFT": -28.88,
+          "QCOM": -14001.96,
+          "QQQ": -111.37,
+          "RH": 12102.66,
+          "SPY": -66.61,
+          "XLE": 14914.72
         },
         "n_fills": 100,
-        "realized_pnl": -53526.55,
-        "symbols": 12,
-        "win_symbols": 4
+        "realized_pnl": 10793.63,
+        "symbols": 10,
+        "win_symbols": 3
       },
       "gates_blocked": {
         "high_adx_exhaustion": 0,
@@ -242,47 +240,53 @@
         "stop_too_wide": 0,
         "trend_filter": 62
       },
-      "generated_at": "2026-07-17T21:30:08Z",
+      "generated_at": "2026-07-24T20:30:53Z",
       "options": {
         "by_symbol": {
-          "AMD260821C00510000": -28.1,
-          "BA260821C00210000": -98.0,
-          "BA260821C00215000": -23.4,
-          "GOOGL260814C00350000": 119.85,
-          "GOOGL260821C00340000": -80.8,
-          "IWM260814C00291000": 67.32,
-          "IWM260821C00290000": -88.76,
-          "IWM260821C00291000": 1.16,
-          "IWM260821C00292000": 1.93,
-          "IWM260821C00293000": -13.52,
-          "MSFT260814C00370000": 75.7,
-          "NVDA260828C00195000": -86.75,
-          "ORCL260828C00125000": -31.15,
-          "QCOM260821C00175000": -54.35,
-          "QQQ260831C00698000": -31.71,
-          "SMH260828C00567500": -26.1,
-          "SPY260831C00728000": -85.26,
-          "SPY260831C00735000": 5.64,
-          "SPY260831C00737000": -17.31,
-          "TSLA260814C00385000": 112.8,
-          "TSLA260821C00370000": 4.05,
-          "TSLA260821C00380000": -20.25,
-          "TSLA260821C00385000": -17.6
+          "BA260821C00205000": -29.05,
+          "BA260821C00210000": 67.55,
+          "BA260828C00200000": -0.2,
+          "BA260904C00205000": -14.0,
+          "CRM260828C00155000": -63.5,
+          "CRM260828C00165000": -35.0,
+          "GOOGL260828C00315000": 2.4,
+          "GOOGL260828C00340000": -6.6,
+          "IWM260821C00290000": 89.43,
+          "IWM260821C00291000": 2.07,
+          "IWM260828C00288000": -50.45,
+          "IWM260828C00289000": -5.52,
+          "IWM260828C00291000": -21.0,
+          "MSFT260814C00370000": 76.8,
+          "MSFT260828C00375000": -50.4,
+          "NVDA260828C00195000": 87.75,
+          "NVDA260828C00200000": -48.45,
+          "ORCL260904C00120000": -27.75,
+          "ORCL260918C00115000": -45.45,
+          "ORCL260918C00120000": -3.05,
+          "QCOM260828C00160000": -55.8,
+          "QCOM260828C00165000": -10.5,
+          "QQQ260821C00688000": -14.54,
+          "SPY260828C00723000": -0.78,
+          "SPY260828C00732000": -25.32,
+          "SPY260831C00728000": 92.43,
+          "SPY260831C00730000": 4.23,
+          "TSLA260821C00372500": -19.65,
+          "TSLA260828C00315000": -13.0
         },
         "n_fills": 100,
-        "realized_pnl": -314.61,
-        "symbols": 23,
+        "realized_pnl": -117.35,
+        "symbols": 29,
         "win_symbols": 8
       },
       "plan_entries": 0,
       "task": "fib_weekly_review",
-      "week_label": "2026-07-17"
+      "week_label": "2026-07-24"
     },
     "ws": {
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 89140,
+        "msgs": 89146,
         "reconnects": 1
       },
       "crypto_trades": {
@@ -339,8 +343,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1784925029.902847,
-      "last_heartbeat_age_sec": 6.546987533569336,
+      "last_heartbeat": 1784925091.8304288,
+      "last_heartbeat_age_sec": 5.00362229347229,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -352,6 +356,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1784925046,
-  "pushed_at_iso": "2026-07-24T20:30:46Z"
+  "pushed_at": 1784925106,
+  "pushed_at_iso": "2026-07-24T20:31:46Z"
 }
