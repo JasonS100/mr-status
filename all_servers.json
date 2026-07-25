@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 266764
+    "uptime": 266824
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,9 +53,9 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-25T17:49:36.097172+00:00",
-      "heartbeat": "2026-07-25T17:49:36.096916+00:00",
-      "signal_loop": "2026-07-25T17:49:36.097204+00:00"
+      "drift_loop": "2026-07-25T17:50:36.097869+00:00",
+      "heartbeat": "2026-07-25T17:50:36.097617+00:00",
+      "signal_loop": "2026-07-25T17:50:36.097895+00:00"
     },
     "last_scan_run_id": 72,
     "last_scan_ts": "2026-07-24T10:22:42.125400+00:00",
@@ -70,8 +70,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
         "delta1-paper-tailrisk.timer",
+        "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-db-prune.timer",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-07-24T20:19:34.523381+00:00",
-    "uptime_s": 77416.282442
+    "uptime_s": 77476.546109
   },
   "fib_server": {
     "account_positions_count": 12,
@@ -104,10 +104,10 @@
       "crypto": {
         "enabled": true,
         "errors": 0,
-        "hits": 12806,
+        "hits": 12807,
         "last_skip_reason": null,
         "submitted": 62,
-        "ticks_run": 63447
+        "ticks_run": 63451
       },
       "equity": {
         "enabled": true,
@@ -208,7 +208,7 @@
       "panic_exits": 5,
       "triggers_fired": 188
     },
-    "ts_utc": "2026-07-25T17:49:50.413178+00:00",
+    "ts_utc": "2026-07-25T17:50:50.534757+00:00",
     "weekly_review": {
       "baseline_2026_07_02": {
         "AMAT": -74.88,
@@ -286,7 +286,7 @@
       "crypto_bars": {
         "connected": true,
         "last_error": null,
-        "msgs": 93168,
+        "msgs": 93172,
         "reconnects": 1
       },
       "crypto_trades": {
@@ -343,8 +343,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785001770.496333,
-      "last_heartbeat_age_sec": 14.892067193984985,
+      "last_heartbeat": 1785001832.1575615,
+      "last_heartbeat_age_sec": 13.239700317382812,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -356,6 +356,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785001791,
-  "pushed_at_iso": "2026-07-25T17:49:51Z"
+  "pushed_at": 1785001851,
+  "pushed_at_iso": "2026-07-25T17:50:51Z"
 }
