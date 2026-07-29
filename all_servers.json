@@ -39,23 +39,23 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 583163
+    "uptime": 583224
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15962.36,
+      "equity": 15948.27,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 10,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-29T09:42:38.673895+00:00",
-      "heartbeat": "2026-07-29T09:42:38.673591+00:00",
-      "signal_loop": "2026-07-29T09:42:38.673927+00:00"
+      "drift_loop": "2026-07-29T09:43:38.675975+00:00",
+      "heartbeat": "2026-07-29T09:43:38.675724+00:00",
+      "signal_loop": "2026-07-29T09:43:38.675997+00:00"
     },
     "last_scan_run_id": 76,
     "last_scan_ts": "2026-07-28T10:22:10.143007+00:00",
@@ -70,8 +70,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-07-28T20:28:37.577554+00:00",
-    "uptime_s": 47672.479599
+    "uptime_s": 47732.846217
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -204,8 +204,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785318176.1332877,
-      "last_heartbeat_age_sec": 5.0008955001831055,
+      "last_heartbeat": 1785318236.8084915,
+      "last_heartbeat_age_sec": 5.002835035324097,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -217,6 +217,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785318190,
-  "pushed_at_iso": "2026-07-29T09:43:10Z"
+  "pushed_at": 1785318250,
+  "pushed_at_iso": "2026-07-29T09:44:10Z"
 }
