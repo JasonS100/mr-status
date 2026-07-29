@@ -39,24 +39,24 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 590838
+    "uptime": 590898
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15949.8,
+      "equity": 15949.91,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 10,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-29T11:50:38.828198+00:00",
+      "drift_loop": "2026-07-29T11:51:38.828864+00:00",
       "full_scan_loop": "2026-07-29T10:25:21.965616+00:00",
-      "heartbeat": "2026-07-29T11:50:38.827911+00:00",
-      "signal_loop": "2026-07-29T11:50:38.828225+00:00"
+      "heartbeat": "2026-07-29T11:51:38.828584+00:00",
+      "signal_loop": "2026-07-29T11:51:38.828890+00:00"
     },
     "last_scan_run_id": 78,
     "last_scan_ts": "2026-07-29T10:25:21.948327+00:00",
@@ -71,10 +71,10 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "cr11-delta1-positions-refresh.timer",
         "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-freshness-check.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
@@ -97,7 +97,7 @@
       }
     },
     "start_ts": "2026-07-28T20:28:37.577554+00:00",
-    "uptime_s": 55347.345254
+    "uptime_s": 55407.503874
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -205,8 +205,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785325856.7064095,
-      "last_heartbeat_age_sec": 0.8389570713043213,
+      "last_heartbeat": 1785325917.4510095,
+      "last_heartbeat_age_sec": 0.10112571716308594,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -218,6 +218,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785325865,
-  "pushed_at_iso": "2026-07-29T11:51:05Z"
+  "pushed_at": 1785325925,
+  "pushed_at_iso": "2026-07-29T11:52:05Z"
 }
