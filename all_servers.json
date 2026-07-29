@@ -6,28 +6,28 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 50,
-        "intention_count": 7,
+        "intention_count": 8,
         "near_miss_count": 27,
-        "order_count": 7,
+        "order_count": 8,
         "raw_candidate_count": 903,
         "scored_candidate_count": 50,
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 3708,
+      "duration_ms": 5231,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
         "block_reason_counts": {
-          "qty_too_small": 5
+          "qty_too_small": 6
         },
-        "blocked_count": 5,
+        "blocked_count": 6,
         "broker_accepted_count": 2,
         "broker_submit_attempt_count": 2,
-        "buy_count": 2,
-        "consecutive_zero_buy_ticks": 0,
+        "buy_count": 0,
+        "consecutive_zero_buy_ticks": 1,
         "early_halt_reason": null,
-        "intention_count": 7,
+        "intention_count": 8,
         "market_open": true,
         "schema": "cr_submission_diagnostics/v1",
         "scored_candidate_count": 50,
@@ -37,36 +37,36 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-07-29T16:20:42.378Z",
+    "last_tick_at": "2026-07-29T16:30:46.115Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 607584
+    "uptime": 607644
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15544.24,
+      "equity": 15554.68,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-07-29T16:15:48.455655+00:00",
+      "drift_loop": "2026-07-29T16:30:49.210588+00:00",
       "full_scan_loop": "2026-07-29T10:25:21.965616+00:00",
-      "heartbeat": "2026-07-29T16:29:39.192613+00:00",
-      "signal_loop": "2026-07-29T15:30:39.221660+00:00",
-      "tail_risk_loop": "2026-07-29T16:30:10.181449+00:00"
+      "heartbeat": "2026-07-29T16:30:39.193801+00:00",
+      "signal_loop": "2026-07-29T16:30:39.334412+00:00",
+      "tail_risk_loop": "2026-07-29T16:31:10.029295+00:00"
     },
     "last_scan_run_id": 78,
     "last_scan_ts": "2026-07-29T10:25:21.948327+00:00",
     "n_positions": 13,
     "n_targets": 12,
     "ok": true,
-    "portfolio_value": 15474.96,
+    "portfolio_value": 15555.44,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -76,6 +76,7 @@
       "host_timers": [
         "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
@@ -84,7 +85,6 @@
         "delta1-freshness-check.timer",
         "delta1-monthly-backtest.timer",
         "delta1-db-prune.timer",
-        "delta1-paper-exits.timer",
         "delta1-paper-explosion.timer",
         "delta1-paper-options-overlay.timer",
         "delta1-paper-tracker.timer",
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-28T20:28:37.577554+00:00",
-    "uptime_s": 72093.123351
+    "uptime_s": 72152.633871
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -209,9 +209,9 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785342599.1899104,
-      "last_heartbeat_age_sec": 4.260053873062134,
-      "open_positions": 1,
+      "last_heartbeat": 1785342654.2707734,
+      "last_heartbeat_age_sec": 10.003076076507568,
+      "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
       "universe_size": 0
@@ -222,6 +222,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785342611,
-  "pushed_at_iso": "2026-07-29T16:30:11Z"
+  "pushed_at": 1785342670,
+  "pushed_at_iso": "2026-07-29T16:31:10Z"
 }
