@@ -41,14 +41,14 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 691736
+    "uptime": 691797
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16327.96,
+      "equity": 16341.99,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 16,
@@ -57,9 +57,9 @@
     "heartbeats": {
       "drift_loop": "2026-07-30T15:45:42.481257+00:00",
       "full_scan_loop": "2026-07-30T10:22:55.947180+00:00",
-      "heartbeat": "2026-07-30T15:52:25.016422+00:00",
+      "heartbeat": "2026-07-30T15:53:25.017280+00:00",
       "signal_loop": "2026-07-30T15:30:25.223321+00:00",
-      "tail_risk_loop": "2026-07-30T15:52:41.257328+00:00"
+      "tail_risk_loop": "2026-07-30T15:53:41.743049+00:00"
     },
     "last_scan_run_id": 80,
     "last_scan_ts": "2026-07-30T10:22:55.937548+00:00",
@@ -74,10 +74,10 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "cr11-delta1-positions-refresh.timer",
         "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
         "delta1-lifecycle-mark.timer",
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-29T20:14:23.294510+00:00",
-    "uptime_s": 70698.864123
+    "uptime_s": 70760.190084
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -209,8 +209,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785426761.7112582,
-      "last_heartbeat_age_sec": 0.0013170242309570312,
+      "last_heartbeat": 1785426822.8615344,
+      "last_heartbeat_age_sec": 0.0012259483337402344,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -222,6 +222,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785426762,
-  "pushed_at_iso": "2026-07-30T15:52:42Z"
+  "pushed_at": 1785426823,
+  "pushed_at_iso": "2026-07-30T15:53:43Z"
 }
