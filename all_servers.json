@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 89743
+    "uptime": 89804
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,11 +53,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-01T16:34:12.350266+00:00",
+      "drift_loop": "2026-08-01T16:35:12.352874+00:00",
       "eod_flatten_loop": "2026-07-31T19:57:50.330335+00:00",
       "full_scan_loop": "2026-07-31T10:22:11.741838+00:00",
-      "heartbeat": "2026-08-01T16:34:54.874765+00:00",
-      "signal_loop": "2026-08-01T16:34:25.380393+00:00",
+      "heartbeat": "2026-08-01T16:35:54.875706+00:00",
+      "signal_loop": "2026-08-01T16:35:25.380860+00:00",
       "tail_risk_loop": "2026-07-31T19:59:59.954839+00:00"
     },
     "last_scan_run_id": 82,
@@ -74,7 +74,6 @@
       ],
       "host_timers": [
         "delta1-paper-exits.timer",
-        "delta1-paper-tailrisk.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-db-prune.timer",
@@ -87,6 +86,7 @@
         "delta1-monthly-backtest.timer",
         "delta1-paper-explosion.timer",
         "delta1-paper-options-overlay.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-paper-tracker.timer",
         "mr-status-push.timer"
       ],
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-29T20:14:23.294510+00:00",
-    "uptime_s": 246036.031092
+    "uptime_s": 246096.525841
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,7 +184,7 @@
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
-      "checked_at": 1785601846.4996238,
+      "checked_at": 1785602146.7931201,
       "summary": "ok"
     },
     "ok": true,
@@ -209,8 +209,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785602090.3902564,
-      "last_heartbeat_age_sec": 5.002295255661011,
+      "last_heartbeat": 1785602151.3635004,
+      "last_heartbeat_age_sec": 5.000535488128662,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -222,6 +222,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785602099,
-  "pushed_at_iso": "2026-08-01T16:34:59Z"
+  "pushed_at": 1785602160,
+  "pushed_at_iso": "2026-08-01T16:36:00Z"
 }
