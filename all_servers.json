@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 181745
+    "uptime": 181805
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,11 +53,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-02T18:08:14.063232+00:00",
+      "drift_loop": "2026-08-02T18:09:14.064223+00:00",
       "eod_flatten_loop": "2026-07-31T19:57:50.330335+00:00",
       "full_scan_loop": "2026-07-31T10:22:11.741838+00:00",
-      "heartbeat": "2026-08-02T18:07:56.726866+00:00",
-      "signal_loop": "2026-08-02T18:07:26.919314+00:00",
+      "heartbeat": "2026-08-02T18:08:56.727415+00:00",
+      "signal_loop": "2026-08-02T18:08:26.919884+00:00",
       "tail_risk_loop": "2026-07-31T19:59:59.954839+00:00"
     },
     "last_scan_run_id": 82,
@@ -73,8 +73,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-29T20:14:23.294510+00:00",
-    "uptime_s": 338037.414553
+    "uptime_s": 338097.518984
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -209,8 +209,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785694090.0153968,
-      "last_heartbeat_age_sec": 10.002834796905518,
+      "last_heartbeat": 1785694151.0549679,
+      "last_heartbeat_age_sec": 8.97341012954712,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -222,6 +222,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785694100,
-  "pushed_at_iso": "2026-08-02T18:08:20Z"
+  "pushed_at": 1785694161,
+  "pushed_at_iso": "2026-08-02T18:09:21Z"
 }
