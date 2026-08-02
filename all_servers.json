@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 174069
+    "uptime": 174114
   },
   "delta1_server": {
     "bootstrap": true,
@@ -56,8 +56,8 @@
       "drift_loop": "2026-08-02T16:00:13.914261+00:00",
       "eod_flatten_loop": "2026-07-31T19:57:50.330335+00:00",
       "full_scan_loop": "2026-07-31T10:22:11.741838+00:00",
-      "heartbeat": "2026-08-02T15:59:56.549664+00:00",
-      "signal_loop": "2026-08-02T15:59:26.795955+00:00",
+      "heartbeat": "2026-08-02T16:00:56.550474+00:00",
+      "signal_loop": "2026-08-02T16:00:26.796580+00:00",
       "tail_risk_loop": "2026-07-31T19:59:59.954839+00:00"
     },
     "last_scan_run_id": 82,
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-29T20:14:23.294510+00:00",
-    "uptime_s": 330361.779534
+    "uptime_s": 330407.329819
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,16 +184,21 @@
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
-      "checked_at": null,
-      "summary": null
+      "checked_at": 1785686239.2322855,
+      "summary": "ok"
     },
-    "ok": false,
+    "ok": true,
     "options": {
-      "degraded": null,
-      "enabled": null,
+      "degraded": true,
+      "enabled": false,
       "open_structures": 0,
-      "opens_today": null,
-      "order_submission_enabled": null
+      "opens_today": {
+        "count": 0,
+        "daily_cap": 3,
+        "date": null,
+        "underlyings": []
+      },
+      "order_submission_enabled": false
     },
     "reconcile": {
       "last_reconciled_ts": null,
@@ -201,14 +206,14 @@
       "stale": null
     },
     "status": {
-      "dryrun": null,
+      "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": null,
-      "last_heartbeat_age_sec": null,
+      "last_heartbeat": 1785686454.8088958,
+      "last_heartbeat_age_sec": 10.004117488861084,
       "open_positions": 0,
-      "order_submission_enabled": null,
-      "regime": null,
+      "order_submission_enabled": true,
+      "regime": "full_size",
       "universe_size": 0
     },
     "ws": {
@@ -217,6 +222,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785686425,
-  "pushed_at_iso": "2026-08-02T16:00:25Z"
+  "pushed_at": 1785686471,
+  "pushed_at_iso": "2026-08-02T16:01:11Z"
 }
