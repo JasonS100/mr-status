@@ -39,25 +39,25 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 211991
+    "uptime": 212051
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16323.55,
+      "equity": 16321.04,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 14,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-03T02:32:14.705160+00:00",
+      "drift_loop": "2026-08-03T02:33:14.706644+00:00",
       "eod_flatten_loop": "2026-07-31T19:57:50.330335+00:00",
       "full_scan_loop": "2026-07-31T10:22:11.741838+00:00",
-      "heartbeat": "2026-08-03T02:31:57.345976+00:00",
-      "signal_loop": "2026-08-03T02:31:27.429394+00:00",
+      "heartbeat": "2026-08-03T02:32:57.347405+00:00",
+      "signal_loop": "2026-08-03T02:32:27.429965+00:00",
       "tail_risk_loop": "2026-07-31T19:59:59.954839+00:00"
     },
     "last_scan_run_id": 82,
@@ -73,8 +73,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "delta1-d2-sim-daily.timer",
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-29T20:14:23.294510+00:00",
-    "uptime_s": 368283.490709
+    "uptime_s": 368343.743155
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,7 +184,7 @@
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
-      "checked_at": 1785724078.5705464,
+      "checked_at": 1785724378.8478384,
       "summary": "ok"
     },
     "ok": true,
@@ -209,8 +209,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785724338.2946835,
-      "last_heartbeat_age_sec": 0.04739093780517578,
+      "last_heartbeat": 1785724383.300165,
+      "last_heartbeat_age_sec": 15.05024528503418,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -222,6 +222,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785724347,
-  "pushed_at_iso": "2026-08-03T02:32:27Z"
+  "pushed_at": 1785724407,
+  "pushed_at_iso": "2026-08-03T02:33:27Z"
 }
