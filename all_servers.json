@@ -39,25 +39,25 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 399644
+    "uptime": 399704
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16317.65,
+      "equity": 16314.43,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-05T06:39:07.196980+00:00",
+      "drift_loop": "2026-08-05T06:40:07.197841+00:00",
       "eod_flatten_loop": "2026-08-04T19:55:50.327565+00:00",
       "full_scan_loop": "2026-08-04T10:22:40.693014+00:00",
-      "heartbeat": "2026-08-05T06:39:25.710261+00:00",
-      "signal_loop": "2026-08-05T06:39:25.737236+00:00",
+      "heartbeat": "2026-08-05T06:40:25.718160+00:00",
+      "signal_loop": "2026-08-05T06:40:25.738255+00:00",
       "tail_risk_loop": "2026-08-04T19:59:59.949982+00:00"
     },
     "last_scan_run_id": 86,
@@ -73,7 +73,6 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
@@ -87,6 +86,7 @@
         "delta1-monthly-backtest.timer",
         "delta1-paper-explosion.timer",
         "delta1-paper-options-overlay.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-paper-tracker.timer",
         "mr-status-push.timer"
       ],
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-29T20:14:23.294510+00:00",
-    "uptime_s": 555936.786372
+    "uptime_s": 555996.783754
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -183,7 +183,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 9.86,
+    "bar_age_min": 5.96,
     "book": "LONG",
     "connected": true,
     "errors": [],
@@ -199,8 +199,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 9,
-    "status_ts": "2026-08-05T06:39:51.566145+00:00",
+    "status_age_sec": 2,
+    "status_ts": "2026-08-05T06:40:57.584352+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "992640.89",
@@ -237,8 +237,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785911981.6133778,
-      "last_heartbeat_age_sec": 10.003136396408081,
+      "last_heartbeat": 1785912042.739349,
+      "last_heartbeat_age_sec": 9.999736070632935,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -250,6 +250,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785912000,
-  "pushed_at_iso": "2026-08-05T06:40:00Z"
+  "pushed_at": 1785912060,
+  "pushed_at_iso": "2026-08-05T06:41:00Z"
 }
