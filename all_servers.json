@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 381613
+    "uptime": 381622
   },
   "delta1_server": {
     "bootstrap": true,
@@ -76,6 +76,7 @@
         "delta1-paper-exits.timer",
         "delta1-paper-tailrisk.timer",
         "delta1-spread-exits.timer",
+        "mr-status-push.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
         "delta1-freshness-check.timer",
@@ -87,8 +88,7 @@
         "delta1-monthly-backtest.timer",
         "delta1-paper-explosion.timer",
         "delta1-paper-options-overlay.timer",
-        "delta1-paper-tracker.timer",
-        "mr-status-push.timer"
+        "delta1-paper-tracker.timer"
       ],
       "loops": {
         "drift_s": 900,
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-07-29T20:14:23.294510+00:00",
-    "uptime_s": 537905.951813
+    "uptime_s": 537914.742763
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -181,6 +181,34 @@
     },
     "ws": {}
   },
+  "fxp_server": {
+    "account": "DUR398978",
+    "bar_age_min": 9.54,
+    "book": "SHORT",
+    "connected": true,
+    "errors": [],
+    "ok": true,
+    "orders_enabled": true,
+    "port": 4005,
+    "position_mnq": -1.0,
+    "reachable": true,
+    "service_active": true,
+    "session": "ETH",
+    "spine": {
+      "drift": [],
+      "marker": "THESIS-SPINE-2026-08-04",
+      "ok": true
+    },
+    "status_age_sec": 6,
+    "status_ts": "2026-08-05T01:39:32.255037+00:00",
+    "strategy": "BAYES_ENS_v1",
+    "summary": {
+      "AvailableFunds": "993359.08",
+      "BuyingPower": "3979578.45",
+      "ExcessLiquidity": "994894.61",
+      "NetLiquidation": "999578.11"
+    }
+  },
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
@@ -209,8 +237,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785893953.5820355,
-      "last_heartbeat_age_sec": 10.730962038040161,
+      "last_heartbeat": 1785893969.3123336,
+      "last_heartbeat_age_sec": 5.0016467571258545,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -222,6 +250,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785893969,
-  "pushed_at_iso": "2026-08-05T01:39:29Z"
+  "pushed_at": 1785893978,
+  "pushed_at_iso": "2026-08-05T01:39:38Z"
 }
