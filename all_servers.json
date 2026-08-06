@@ -39,23 +39,23 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 13478
+    "uptime": 13538
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15379.83,
+      "equity": 15386.11,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-06T01:58:02.391610+00:00",
-      "heartbeat": "2026-08-06T01:58:02.391343+00:00",
-      "signal_loop": "2026-08-06T01:58:02.623723+00:00"
+      "drift_loop": "2026-08-06T01:59:02.392441+00:00",
+      "heartbeat": "2026-08-06T01:59:02.392239+00:00",
+      "signal_loop": "2026-08-06T01:59:02.624281+00:00"
     },
     "last_scan_run_id": 88,
     "last_scan_ts": "2026-08-05T10:23:19.156950+00:00",
@@ -70,8 +70,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
@@ -99,7 +99,7 @@
       }
     },
     "start_ts": "2026-08-05T22:14:01.939716+00:00",
-    "uptime_s": 13461.940485
+    "uptime_s": 13521.947255
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -181,7 +181,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 8.4,
+    "bar_age_min": 9.31,
     "book": "LONG",
     "connected": true,
     "errors": [],
@@ -197,20 +197,20 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 0,
-    "status_ts": "2026-08-06T01:58:24.028974+00:00",
+    "status_age_sec": 5,
+    "status_ts": "2026-08-06T01:59:18.513342+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "992706.22",
-      "BuyingPower": "3978591.55",
-      "ExcessLiquidity": "994648.59",
-      "NetLiquidation": "999456.07"
+      "AvailableFunds": "992687.46",
+      "BuyingPower": "3978512.23",
+      "ExcessLiquidity": "994628.06",
+      "NetLiquidation": "999433.86"
     }
   },
   "host": "droplet",
   "mr_server": {
     "diagnostics": {
-      "checked_at": 1785981244.668756,
+      "checked_at": 1785981545.018378,
       "summary": "ok"
     },
     "ok": true,
@@ -235,8 +235,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785981482.134868,
-      "last_heartbeat_age_sec": 15.275922536849976,
+      "last_heartbeat": 1785981542.9921772,
+      "last_heartbeat_age_sec": 14.424392461776733,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -248,6 +248,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785981504,
-  "pushed_at_iso": "2026-08-06T01:58:24Z"
+  "pushed_at": 1785981564,
+  "pushed_at_iso": "2026-08-06T01:59:24Z"
 }
