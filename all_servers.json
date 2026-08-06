@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 86581
+    "uptime": 86589
   },
   "delta1_server": {
     "bootstrap": true,
@@ -74,6 +74,7 @@
       ],
       "host_timers": [
         "delta1-paper-tailrisk.timer",
+        "mr-status-push.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
@@ -88,8 +89,7 @@
         "delta1-composite-daily.timer",
         "delta1-lifecycle-mark.timer",
         "delta1-db-prune.timer",
-        "delta1-monthly-backtest.timer",
-        "mr-status-push.timer"
+        "delta1-monthly-backtest.timer"
       ],
       "loops": {
         "drift_s": 900,
@@ -102,7 +102,7 @@
       }
     },
     "start_ts": "2026-08-05T22:14:01.939716+00:00",
-    "uptime_s": 86565.068628
+    "uptime_s": 86572.299424
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,7 +184,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 6.72,
+    "bar_age_min": 6.9,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -200,8 +200,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 4,
-    "status_ts": "2026-08-06T22:16:42.925159+00:00",
+    "status_age_sec": 0,
+    "status_ts": "2026-08-06T22:16:54.034303+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "1002028.21",
@@ -212,7 +212,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 6.7,
+    "bar_age_min": 6.88,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -228,8 +228,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 5,
-    "status_ts": "2026-08-06T22:16:41.798398+00:00",
+    "status_age_sec": 1,
+    "status_ts": "2026-08-06T22:16:52.875780+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "992852.46",
@@ -244,6 +244,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786054607,
-  "pushed_at_iso": "2026-08-06T22:16:47Z"
+  "pushed_at": 1786054614,
+  "pushed_at_iso": "2026-08-06T22:16:54Z"
 }
