@@ -39,23 +39,23 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 20365
+    "uptime": 20426
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15375.62,
+      "equity": 15372.5,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-06T03:53:02.566212+00:00",
-      "heartbeat": "2026-08-06T03:53:02.565932+00:00",
-      "signal_loop": "2026-08-06T03:53:02.791129+00:00"
+      "drift_loop": "2026-08-06T03:54:02.567313+00:00",
+      "heartbeat": "2026-08-06T03:54:02.567068+00:00",
+      "signal_loop": "2026-08-06T03:54:02.793228+00:00"
     },
     "last_scan_run_id": 88,
     "last_scan_ts": "2026-08-05T10:23:19.156950+00:00",
@@ -70,8 +70,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
@@ -99,7 +99,7 @@
       }
     },
     "start_ts": "2026-08-05T22:14:01.939716+00:00",
-    "uptime_s": 20348.687498
+    "uptime_s": 20409.297206
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -181,7 +181,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 8.12,
+    "bar_age_min": 9.03,
     "book": "LONG",
     "connected": true,
     "errors": [],
@@ -197,8 +197,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 3,
-    "status_ts": "2026-08-06T03:53:07.225607+00:00",
+    "status_age_sec": 9,
+    "status_ts": "2026-08-06T03:54:01.716602+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "992795.17",
@@ -235,8 +235,8 @@
       "dryrun": false,
       "errors_last_5min": 0,
       "heartbeat_consecutive_errors": 0,
-      "last_heartbeat": 1785988379.147277,
-      "last_heartbeat_age_sec": 10.481254816055298,
+      "last_heartbeat": 1785988440.4542315,
+      "last_heartbeat_age_sec": 9.182631731033325,
       "open_positions": 0,
       "order_submission_enabled": true,
       "regime": "full_size",
@@ -248,6 +248,6 @@
       "unique_symbols": 0
     }
   },
-  "pushed_at": 1785988390,
-  "pushed_at_iso": "2026-08-06T03:53:10Z"
+  "pushed_at": 1785988451,
+  "pushed_at_iso": "2026-08-06T03:54:11Z"
 }
