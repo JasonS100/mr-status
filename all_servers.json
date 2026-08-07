@@ -5,48 +5,48 @@
     "last_tick": {
       "alpaca_degraded": false,
       "candidate_counts": {
-        "filtered_candidate_count": 43,
-        "intention_count": 11,
+        "filtered_candidate_count": 44,
+        "intention_count": 10,
         "near_miss_count": 24,
-        "order_count": 11,
+        "order_count": 10,
         "raw_candidate_count": 903,
-        "scored_candidate_count": 43,
+        "scored_candidate_count": 44,
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 4638,
+      "duration_ms": 3706,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
         "block_reason_counts": {},
         "blocked_count": 0,
-        "broker_accepted_count": 11,
-        "broker_submit_attempt_count": 11,
-        "buy_count": 4,
+        "broker_accepted_count": 10,
+        "broker_submit_attempt_count": 10,
+        "buy_count": 7,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": null,
-        "intention_count": 11,
+        "intention_count": 10,
         "market_open": true,
         "schema": "cr_submission_diagnostics/v1",
-        "scored_candidate_count": 43,
+        "scored_candidate_count": 44,
         "suppressed_count": 0,
         "zero_candidate_reason": null
       },
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-07T16:25:39.913Z",
+    "last_tick_at": "2026-08-07T16:35:44.570Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 152508
+    "uptime": 152569
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15451.11,
+      "equity": 15445.49,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 16,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-08-07T16:32:46.299605+00:00",
       "eod_flatten_loop": "2026-08-06T19:55:02.417051+00:00",
       "full_scan_loop": "2026-08-07T10:22:18.893299+00:00",
-      "heartbeat": "2026-08-07T16:34:34.076873+00:00",
+      "heartbeat": "2026-08-07T16:36:34.078470+00:00",
       "signal_loop": "2026-08-07T16:31:34.257248+00:00",
-      "tail_risk_loop": "2026-08-07T16:35:33.187230+00:00"
+      "tail_risk_loop": "2026-08-07T16:36:32.399724+00:00"
     },
     "last_scan_run_id": 92,
     "last_scan_ts": "2026-08-07T10:22:18.884103+00:00",
@@ -102,7 +102,7 @@
       }
     },
     "start_ts": "2026-08-05T22:14:01.939716+00:00",
-    "uptime_s": 152491.44387
+    "uptime_s": 152552.326798
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,7 +184,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 5.44,
+    "bar_age_min": 6.53,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -200,19 +200,19 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 7,
-    "status_ts": "2026-08-07T16:35:26.391561+00:00",
+    "status_age_sec": 2,
+    "status_ts": "2026-08-07T16:36:31.665326+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "997876.73",
-      "BuyingPower": "3995118.53",
-      "ExcessLiquidity": "998779.63",
-      "NetLiquidation": "1002439.68"
+      "AvailableFunds": "997813.23",
+      "BuyingPower": "3994862.05",
+      "ExcessLiquidity": "998715.51",
+      "NetLiquidation": "1002378.78"
     }
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 5.49,
+    "bar_age_min": 6.4,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -228,14 +228,14 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 4,
-    "status_ts": "2026-08-07T16:35:29.564113+00:00",
+    "status_age_sec": 10,
+    "status_ts": "2026-08-07T16:36:24.189947+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "994100.14",
-      "BuyingPower": "3980005.49",
-      "ExcessLiquidity": "995001.37",
-      "NetLiquidation": "998686.13"
+      "AvailableFunds": "994031.65",
+      "BuyingPower": "3979733.49",
+      "ExcessLiquidity": "994933.37",
+      "NetLiquidation": "998621.63"
     }
   },
   "host": "droplet",
@@ -244,6 +244,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786120533,
-  "pushed_at_iso": "2026-08-07T16:35:33Z"
+  "pushed_at": 1786120594,
+  "pushed_at_iso": "2026-08-07T16:36:34Z"
 }
