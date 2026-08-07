@@ -14,7 +14,7 @@
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 4891,
+      "duration_ms": 3679,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
@@ -22,7 +22,7 @@
         "blocked_count": 0,
         "broker_accepted_count": 8,
         "broker_submit_attempt_count": 8,
-        "buy_count": 6,
+        "buy_count": 3,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": null,
         "intention_count": 8,
@@ -35,18 +35,18 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-07T18:16:40.303Z",
+    "last_tick_at": "2026-08-07T18:26:45.210Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 159169
+    "uptime": 159231
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15435.65,
+      "equity": 15437.84,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 16,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-08-07T18:17:50.074756+00:00",
       "eod_flatten_loop": "2026-08-06T19:55:02.417051+00:00",
       "full_scan_loop": "2026-08-07T10:22:18.893299+00:00",
-      "heartbeat": "2026-08-07T18:26:34.205833+00:00",
+      "heartbeat": "2026-08-07T18:27:34.206691+00:00",
       "signal_loop": "2026-08-07T17:31:34.391098+00:00",
-      "tail_risk_loop": "2026-08-07T18:26:34.256839+00:00"
+      "tail_risk_loop": "2026-08-07T18:27:35.167457+00:00"
     },
     "last_scan_run_id": 92,
     "last_scan_ts": "2026-08-07T10:22:18.884103+00:00",
@@ -73,8 +73,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
         "delta1-disagree-calls.timer",
@@ -102,7 +102,7 @@
       }
     },
     "start_ts": "2026-08-05T22:14:01.939716+00:00",
-    "uptime_s": 159152.972801
+    "uptime_s": 159214.321978
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,7 +184,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 6.5,
+    "bar_age_min": 7.6,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -200,19 +200,19 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 5,
-    "status_ts": "2026-08-07T18:26:29.961840+00:00",
+    "status_age_sec": 0,
+    "status_ts": "2026-08-07T18:27:36.170359+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "997864.32",
-      "BuyingPower": "3995066.06",
-      "ExcessLiquidity": "998766.52",
-      "NetLiquidation": "1002427.18"
+      "AvailableFunds": "997870.74",
+      "BuyingPower": "3995089.42",
+      "ExcessLiquidity": "998772.36",
+      "NetLiquidation": "1002432.68"
     }
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 6.56,
+    "bar_age_min": 7.47,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -228,14 +228,14 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 1,
-    "status_ts": "2026-08-07T18:26:33.779140+00:00",
+    "status_age_sec": 8,
+    "status_ts": "2026-08-07T18:27:27.932374+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "994080.22",
-      "BuyingPower": "3979922.70",
-      "ExcessLiquidity": "994980.68",
-      "NetLiquidation": "998666.43"
+      "AvailableFunds": "994096.76",
+      "BuyingPower": "3979993.56",
+      "ExcessLiquidity": "994998.39",
+      "NetLiquidation": "998683.33"
     }
   },
   "host": "droplet",
@@ -244,6 +244,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786127195,
-  "pushed_at_iso": "2026-08-07T18:26:35Z"
+  "pushed_at": 1786127256,
+  "pushed_at_iso": "2026-08-07T18:27:36Z"
 }
