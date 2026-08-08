@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 238524
+    "uptime": 238586
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,9 +53,9 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-08T16:28:48.843090+00:00",
-      "heartbeat": "2026-08-08T16:28:48.842242+00:00",
-      "signal_loop": "2026-08-08T16:28:48.843149+00:00"
+      "drift_loop": "2026-08-08T16:29:48.844146+00:00",
+      "heartbeat": "2026-08-08T16:29:48.843928+00:00",
+      "signal_loop": "2026-08-08T16:29:48.844166+00:00"
     },
     "last_scan_run_id": 92,
     "last_scan_ts": "2026-08-07T10:22:09.012794+00:00",
@@ -70,10 +70,10 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-exits.timer",
-        "delta1-paper-tailrisk.timer",
-        "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
+        "delta1-paper-tailrisk.timer",
+        "delta1-paper-exits.timer",
+        "delta1-spread-exits.timer",
         "delta1-db-prune.timer",
         "delta1-d2-sim-daily.timer",
         "delta1-freshness-check.timer",
@@ -99,7 +99,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 72742.417965
+    "uptime_s": 72803.798424
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -197,7 +197,7 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 2,
+    "status_age_sec": 63,
     "status_ts": "2026-08-08T16:29:07.978772+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
@@ -209,7 +209,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 1174.11,
+    "bar_age_min": 1175.01,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -225,8 +225,8 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 3,
-    "status_ts": "2026-08-08T16:29:06.389072+00:00",
+    "status_age_sec": 11,
+    "status_ts": "2026-08-08T16:30:00.583217+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "997765.82",
@@ -241,6 +241,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786206550,
-  "pushed_at_iso": "2026-08-08T16:29:10Z"
+  "pushed_at": 1786206611,
+  "pushed_at_iso": "2026-08-08T16:30:11Z"
 }
