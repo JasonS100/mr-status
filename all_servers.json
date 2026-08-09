@@ -14,7 +14,7 @@
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 5899,
+      "duration_ms": 10223,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
@@ -35,11 +35,11 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-09T02:48:45.787Z",
+    "last_tick_at": "2026-08-09T02:58:51.705Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 276264
+    "uptime": 276326
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,9 +53,9 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-09T02:57:49.589712+00:00",
-      "heartbeat": "2026-08-09T02:57:49.589491+00:00",
-      "signal_loop": "2026-08-09T02:57:49.589732+00:00"
+      "drift_loop": "2026-08-09T02:58:49.590742+00:00",
+      "heartbeat": "2026-08-09T02:58:49.590450+00:00",
+      "signal_loop": "2026-08-09T02:58:49.590779+00:00"
     },
     "last_scan_run_id": 92,
     "last_scan_ts": "2026-08-07T10:22:09.012794+00:00",
@@ -70,8 +70,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-paper-tailrisk.timer",
         "delta1-paper-exits.timer",
+        "delta1-paper-tailrisk.timer",
         "delta1-spread-exits.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-db-prune.timer",
@@ -99,7 +99,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 110482.008315
+    "uptime_s": 110544.008886
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -197,7 +197,7 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 10608,
+    "status_age_sec": 10670,
     "status_ts": "2026-08-09T00:01:21.386660+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
@@ -225,7 +225,7 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 10619,
+    "status_age_sec": 10681,
     "status_ts": "2026-08-09T00:01:10.094288+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
@@ -241,6 +241,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786244289,
-  "pushed_at_iso": "2026-08-09T02:58:09Z"
+  "pushed_at": 1786244351,
+  "pushed_at_iso": "2026-08-09T02:59:11Z"
 }
