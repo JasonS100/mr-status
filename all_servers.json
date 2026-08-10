@@ -39,23 +39,23 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 374711
+    "uptime": 374776
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 15405.34,
+      "equity": 15405.1,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 13,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-10T06:18:51.483237+00:00",
-      "heartbeat": "2026-08-10T06:18:51.483015+00:00",
-      "signal_loop": "2026-08-10T06:18:51.483261+00:00"
+      "drift_loop": "2026-08-10T06:19:51.484724+00:00",
+      "heartbeat": "2026-08-10T06:19:51.484474+00:00",
+      "signal_loop": "2026-08-10T06:19:51.484753+00:00"
     },
     "last_scan_run_id": 92,
     "last_scan_ts": "2026-08-07T10:22:09.012794+00:00",
@@ -71,9 +71,9 @@
       ],
       "host_timers": [
         "delta1-paper-tailrisk.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
-        "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
         "delta1-freshness-check.timer",
         "delta1-disagree-calls.timer",
@@ -98,7 +98,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 208929.537336
+    "uptime_s": 208994.155114
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -180,7 +180,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 8.84,
+    "bar_age_min": 9.95,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -196,8 +196,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 6,
-    "status_ts": "2026-08-10T06:18:50.627645+00:00",
+    "status_age_sec": 5,
+    "status_ts": "2026-08-10T06:19:56.780927+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "100235.78",
@@ -208,7 +208,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 8.84,
+    "bar_age_min": 9.94,
     "book": "LONG",
     "connected": true,
     "errors": [],
@@ -224,8 +224,8 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 6,
-    "status_ts": "2026-08-10T06:18:50.611103+00:00",
+    "status_age_sec": 5,
+    "status_ts": "2026-08-10T06:19:56.352591+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "93650.57",
@@ -240,6 +240,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786342737,
-  "pushed_at_iso": "2026-08-10T06:18:57Z"
+  "pushed_at": 1786342801,
+  "pushed_at_iso": "2026-08-10T06:20:01Z"
 }
