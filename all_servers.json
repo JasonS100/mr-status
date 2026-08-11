@@ -6,7 +6,7 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 45,
-        "intention_count": 12,
+        "intention_count": 13,
         "near_miss_count": 24,
         "order_count": 0,
         "raw_candidate_count": 903,
@@ -14,7 +14,7 @@
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 10817,
+      "duration_ms": 4623,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
@@ -25,7 +25,7 @@
         "buy_count": 7,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": "market_closed",
-        "intention_count": 12,
+        "intention_count": 13,
         "market_open": false,
         "schema": "cr_submission_diagnostics/v1",
         "scored_candidate_count": 45,
@@ -35,11 +35,11 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-11T03:01:56.926Z",
+    "last_tick_at": "2026-08-11T03:12:07.767Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 449848
+    "uptime": 449909
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,11 +53,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-11T03:11:04.683549+00:00",
+      "drift_loop": "2026-08-11T03:12:04.683992+00:00",
       "eod_flatten_loop": "2026-08-10T19:55:05.137069+00:00",
       "full_scan_loop": "2026-08-10T10:22:41.047817+00:00",
-      "heartbeat": "2026-08-11T03:10:52.897303+00:00",
-      "signal_loop": "2026-08-11T03:10:23.154319+00:00",
+      "heartbeat": "2026-08-11T03:11:52.898193+00:00",
+      "signal_loop": "2026-08-11T03:11:23.154827+00:00",
       "tail_risk_loop": "2026-08-10T19:59:59.661823+00:00"
     },
     "last_scan_run_id": 94,
@@ -74,9 +74,9 @@
       ],
       "host_timers": [
         "delta1-paper-tailrisk.timer",
-        "cr11-delta1-positions-refresh.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
         "delta1-freshness-check.timer",
         "delta1-pa39-clear-overlay.timer",
@@ -102,7 +102,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 284065.879706
+    "uptime_s": 284127.284824
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,7 +184,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 6.11,
+    "bar_age_min": 7.23,
     "book": "LONG",
     "connected": true,
     "errors": [],
@@ -200,8 +200,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 7,
-    "status_ts": "2026-08-11T03:11:06.333178+00:00",
+    "status_age_sec": 1,
+    "status_ts": "2026-08-11T03:12:13.658763+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "93963.76",
@@ -212,7 +212,7 @@
   },
   "fxp3_server": {
     "account": "DUQ897380",
-    "bar_age_min": 6.07,
+    "bar_age_min": 7.18,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -228,8 +228,8 @@
       "marker": "THESIS-SPINE-BMA-2026-08-09",
       "ok": true
     },
-    "status_age_sec": 9,
-    "status_ts": "2026-08-11T03:11:04.199243+00:00",
+    "status_age_sec": 4,
+    "status_ts": "2026-08-11T03:12:10.544577+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "99802.06",
@@ -240,7 +240,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 6.12,
+    "bar_age_min": 7.23,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -256,8 +256,8 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 6,
-    "status_ts": "2026-08-11T03:11:06.974490+00:00",
+    "status_age_sec": 1,
+    "status_ts": "2026-08-11T03:12:13.630370+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "100332.06",
@@ -272,6 +272,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786417873,
-  "pushed_at_iso": "2026-08-11T03:11:13Z"
+  "pushed_at": 1786417934,
+  "pushed_at_iso": "2026-08-11T03:12:14Z"
 }
