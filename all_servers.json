@@ -14,7 +14,7 @@
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 4445,
+      "duration_ms": 4832,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
@@ -35,11 +35,11 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-11T02:01:27.246Z",
+    "last_tick_at": "2026-08-11T02:11:31.715Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 446223
+    "uptime": 446284
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,11 +53,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-11T02:10:04.615600+00:00",
+      "drift_loop": "2026-08-11T02:11:04.615956+00:00",
       "eod_flatten_loop": "2026-08-10T19:55:05.137069+00:00",
       "full_scan_loop": "2026-08-10T10:22:41.047817+00:00",
-      "heartbeat": "2026-08-11T02:09:52.828177+00:00",
-      "signal_loop": "2026-08-11T02:10:23.100623+00:00",
+      "heartbeat": "2026-08-11T02:10:52.829456+00:00",
+      "signal_loop": "2026-08-11T02:11:23.102531+00:00",
       "tail_risk_loop": "2026-08-10T19:59:59.661823+00:00"
     },
     "last_scan_run_id": 94,
@@ -74,9 +74,9 @@
       ],
       "host_timers": [
         "delta1-paper-tailrisk.timer",
-        "cr11-delta1-positions-refresh.timer",
         "delta1-paper-exits.timer",
         "delta1-spread-exits.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
         "delta1-freshness-check.timer",
         "delta1-pa39-clear-overlay.timer",
@@ -102,7 +102,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 280441.559195
+    "uptime_s": 280501.642911
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -184,35 +184,35 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 5.46,
-    "book": "SHORT",
+    "bar_age_min": 6.72,
+    "book": "FLAT",
     "connected": true,
     "errors": [],
     "ok": true,
     "orders_enabled": true,
     "port": 4004,
-    "position_mnq": -1.0,
+    "position_mnq": 0.0,
     "reachable": true,
-    "service_active": false,
+    "service_active": true,
     "session": "ETH",
     "spine": {
       "drift": [],
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 21,
-    "status_ts": "2026-08-11T02:10:27.831807+00:00",
+    "status_age_sec": 6,
+    "status_ts": "2026-08-11T02:11:43.204011+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "94567.46",
-      "BuyingPower": "384778.51",
-      "ExcessLiquidity": "96195.43",
-      "NetLiquidation": "101014.85"
+      "AvailableFunds": "100534.70",
+      "BuyingPower": "402138.80",
+      "ExcessLiquidity": "100534.70",
+      "NetLiquidation": "101017.74"
     }
   },
   "fxp3_server": {
     "account": "DUQ897380",
-    "bar_age_min": 5.78,
+    "bar_age_min": 6.7,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -228,8 +228,8 @@
       "marker": "THESIS-SPINE-BMA-2026-08-09",
       "ok": true
     },
-    "status_age_sec": 2,
-    "status_ts": "2026-08-11T02:10:46.562199+00:00",
+    "status_age_sec": 7,
+    "status_ts": "2026-08-11T02:11:42.005501+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "99802.06",
@@ -240,7 +240,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 5.78,
+    "bar_age_min": 6.7,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -256,8 +256,8 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 2,
-    "status_ts": "2026-08-11T02:10:46.748584+00:00",
+    "status_age_sec": 7,
+    "status_ts": "2026-08-11T02:11:41.858581+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "100332.06",
@@ -272,6 +272,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786414249,
-  "pushed_at_iso": "2026-08-11T02:10:49Z"
+  "pushed_at": 1786414309,
+  "pushed_at_iso": "2026-08-11T02:11:49Z"
 }
