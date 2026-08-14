@@ -5,48 +5,48 @@
     "last_tick": {
       "alpaca_degraded": false,
       "candidate_counts": {
-        "filtered_candidate_count": 41,
-        "intention_count": 7,
-        "near_miss_count": 21,
-        "order_count": 7,
+        "filtered_candidate_count": 42,
+        "intention_count": 5,
+        "near_miss_count": 22,
+        "order_count": 5,
         "raw_candidate_count": 903,
-        "scored_candidate_count": 41,
+        "scored_candidate_count": 42,
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 3943,
+      "duration_ms": 4373,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
         "block_reason_counts": {},
         "blocked_count": 0,
-        "broker_accepted_count": 7,
-        "broker_submit_attempt_count": 7,
-        "buy_count": 3,
+        "broker_accepted_count": 5,
+        "broker_submit_attempt_count": 5,
+        "buy_count": 4,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": null,
-        "intention_count": 7,
+        "intention_count": 5,
         "market_open": true,
         "schema": "cr_submission_diagnostics/v1",
-        "scored_candidate_count": 41,
+        "scored_candidate_count": 42,
         "suppressed_count": 0,
         "zero_candidate_reason": null
       },
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-14T14:49:15.221Z",
+    "last_tick_at": "2026-08-14T14:59:19.182Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 751489
+    "uptime": 751550
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16587.12,
+      "equity": 16582.2,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-08-14T14:45:27.306664+00:00",
       "eod_flatten_loop": "2026-08-13T19:55:01.969354+00:00",
       "full_scan_loop": "2026-08-14T10:22:05.790717+00:00",
-      "heartbeat": "2026-08-14T14:57:58.598569+00:00",
+      "heartbeat": "2026-08-14T14:58:58.599331+00:00",
       "signal_loop": "2026-08-14T14:30:29.309950+00:00",
-      "tail_risk_loop": "2026-08-14T14:58:33.398966+00:00"
+      "tail_risk_loop": "2026-08-14T14:59:33.839860+00:00"
     },
     "last_scan_run_id": 100,
     "last_scan_ts": "2026-08-14T10:22:05.779423+00:00",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 585707.441955
+    "uptime_s": 585768.382849
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,7 +178,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 8.52,
+    "bar_age_min": 9.43,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -194,8 +194,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 4,
-    "status_ts": "2026-08-14T14:58:30.977293+00:00",
+    "status_age_sec": 10,
+    "status_ts": "2026-08-14T14:59:25.864875+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "98525.60",
@@ -236,7 +236,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 8.41,
+    "bar_age_min": 9.5,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -252,14 +252,14 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 10,
-    "status_ts": "2026-08-14T14:58:24.689667+00:00",
+    "status_age_sec": 6,
+    "status_ts": "2026-08-14T14:59:29.991978+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "96114.95",
-      "BuyingPower": "389737.29",
-      "ExcessLiquidity": "97434.32",
-      "NetLiquidation": "101124.13"
+      "AvailableFunds": "96125.32",
+      "BuyingPower": "389774.81",
+      "ExcessLiquidity": "97443.70",
+      "NetLiquidation": "101133.03"
     }
   },
   "host": "droplet",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1786719515,
-  "pushed_at_iso": "2026-08-14T14:58:35Z"
+  "pushed_at": 1786719576,
+  "pushed_at_iso": "2026-08-14T14:59:36Z"
 }
