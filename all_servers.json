@@ -6,26 +6,26 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 46,
-        "intention_count": 8,
+        "intention_count": 3,
         "near_miss_count": 25,
-        "order_count": 8,
+        "order_count": 3,
         "raw_candidate_count": 903,
         "scored_candidate_count": 46,
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 4931,
+      "duration_ms": 5241,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
         "block_reason_counts": {},
         "blocked_count": 0,
-        "broker_accepted_count": 8,
-        "broker_submit_attempt_count": 8,
-        "buy_count": 3,
+        "broker_accepted_count": 3,
+        "broker_submit_attempt_count": 3,
+        "buy_count": 2,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": null,
-        "intention_count": 8,
+        "intention_count": 3,
         "market_open": true,
         "schema": "cr_submission_diagnostics/v1",
         "scored_candidate_count": 46,
@@ -35,18 +35,18 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-18T14:58:40.039Z",
+    "last_tick_at": "2026-08-18T15:08:44.993Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1097677
+    "uptime": 1097738
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16785.92,
+      "equity": 16788.4,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-08-18T15:00:31.075497+00:00",
       "eod_flatten_loop": "2026-08-17T19:55:05.176493+00:00",
       "full_scan_loop": "2026-08-18T10:22:27.886228+00:00",
-      "heartbeat": "2026-08-18T15:08:06.842664+00:00",
+      "heartbeat": "2026-08-18T15:09:06.847889+00:00",
       "signal_loop": "2026-08-18T14:30:07.004728+00:00",
-      "tail_risk_loop": "2026-08-18T15:08:21.444851+00:00"
+      "tail_risk_loop": "2026-08-18T15:09:23.315190+00:00"
     },
     "last_scan_run_id": 103,
     "last_scan_ts": "2026-08-18T10:22:27.876932+00:00",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 931895.221984
+    "uptime_s": 931956.008646
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,7 +178,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 8.21,
+    "bar_age_min": 9.35,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -194,8 +194,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 10,
-    "status_ts": "2026-08-18T15:08:12.831247+00:00",
+    "status_age_sec": 2,
+    "status_ts": "2026-08-18T15:09:21.029442+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "101491.48",
@@ -236,7 +236,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 8.23,
+    "bar_age_min": 9.36,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -252,14 +252,14 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 8,
-    "status_ts": "2026-08-18T15:08:14.051563+00:00",
+    "status_age_sec": 2,
+    "status_ts": "2026-08-18T15:09:21.541159+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "48553.38",
-      "BuyingPower": "266213.27",
-      "ExcessLiquidity": "66553.32",
-      "NetLiquidation": "103154.24"
+      "AvailableFunds": "48803.34",
+      "BuyingPower": "267127.21",
+      "ExcessLiquidity": "66883.47",
+      "NetLiquidation": "103468.83"
     }
   },
   "host": "droplet",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787065702,
-  "pushed_at_iso": "2026-08-18T15:08:22Z"
+  "pushed_at": 1787065763,
+  "pushed_at_iso": "2026-08-18T15:09:23Z"
 }
