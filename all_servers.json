@@ -6,7 +6,7 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 46,
-        "intention_count": 8,
+        "intention_count": 6,
         "near_miss_count": 23,
         "order_count": 0,
         "raw_candidate_count": 903,
@@ -14,7 +14,7 @@
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 5988,
+      "duration_ms": 7622,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
@@ -22,10 +22,10 @@
         "blocked_count": 0,
         "broker_accepted_count": 0,
         "broker_submit_attempt_count": 0,
-        "buy_count": 4,
+        "buy_count": 3,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": "market_closed",
-        "intention_count": 8,
+        "intention_count": 6,
         "market_open": false,
         "schema": "cr_submission_diagnostics/v1",
         "scored_candidate_count": 46,
@@ -35,29 +35,29 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-21T23:21:10.568Z",
+    "last_tick_at": "2026-08-21T23:31:16.572Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1387047
+    "uptime": 1387107
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16926.95,
+      "equity": 16927.27,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-21T23:30:24.375685+00:00",
+      "drift_loop": "2026-08-21T23:31:24.376700+00:00",
       "eod_flatten_loop": "2026-08-21T19:55:01.842747+00:00",
       "full_scan_loop": "2026-08-21T10:22:24.382280+00:00",
-      "heartbeat": "2026-08-21T23:30:13.280140+00:00",
-      "signal_loop": "2026-08-21T23:30:13.872672+00:00",
+      "heartbeat": "2026-08-21T23:31:13.281478+00:00",
+      "signal_loop": "2026-08-21T23:31:13.873242+00:00",
       "tail_risk_loop": "2026-08-21T19:59:59.935308+00:00"
     },
     "last_scan_run_id": 106,
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1221264.965427
+    "uptime_s": 1221325.018286
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,7 +178,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 156.05,
+    "bar_age_min": 157.15,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -194,8 +194,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 9,
-    "status_ts": "2026-08-21T23:31:02.969360+00:00",
+    "status_age_sec": 3,
+    "status_ts": "2026-08-21T23:32:09.167507+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "92736.42",
@@ -236,7 +236,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 156.06,
+    "bar_age_min": 157.16,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -252,8 +252,8 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 9,
-    "status_ts": "2026-08-21T23:31:03.324802+00:00",
+    "status_age_sec": 3,
+    "status_ts": "2026-08-21T23:32:09.398082+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "93805.02",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787355072,
-  "pushed_at_iso": "2026-08-21T23:31:12Z"
+  "pushed_at": 1787355132,
+  "pushed_at_iso": "2026-08-21T23:32:12Z"
 }
