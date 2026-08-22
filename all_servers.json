@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1474296
+    "uptime": 1474358
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,11 +53,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-22T23:44:25.791847+00:00",
+      "drift_loop": "2026-08-22T23:45:25.792589+00:00",
       "eod_flatten_loop": "2026-08-21T19:55:01.842747+00:00",
       "full_scan_loop": "2026-08-21T10:22:24.382280+00:00",
-      "heartbeat": "2026-08-22T23:45:15.059378+00:00",
-      "signal_loop": "2026-08-22T23:45:15.315054+00:00",
+      "heartbeat": "2026-08-22T23:46:15.061682+00:00",
+      "signal_loop": "2026-08-22T23:46:15.315762+00:00",
       "tail_risk_loop": "2026-08-21T19:59:59.935308+00:00"
     },
     "last_scan_run_id": 106,
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1308514.043945
+    "uptime_s": 1308576.060926
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,30 +178,30 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": null,
-    "book": null,
-    "connected": false,
+    "bar_age_min": 1611.39,
+    "book": "FLAT",
+    "connected": true,
     "errors": [],
     "ok": false,
-    "orders_enabled": null,
-    "port": null,
-    "position_mnq": null,
+    "orders_enabled": true,
+    "port": 4004,
+    "position_mnq": 0.0,
     "reachable": true,
     "service_active": true,
-    "session": null,
+    "session": "ETH",
     "spine": {
       "drift": [],
-      "marker": null,
-      "ok": null
+      "marker": "THESIS-SPINE-2026-08-04",
+      "ok": true
     },
-    "status_age_sec": 8,
-    "status_ts": "2026-08-22T23:45:13.775211+00:00",
+    "status_age_sec": 0,
+    "status_ts": "2026-08-22T23:46:23.196013+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": null,
-      "BuyingPower": null,
-      "ExcessLiquidity": null,
-      "NetLiquidation": null
+      "AvailableFunds": "92736.42",
+      "BuyingPower": "370945.68",
+      "ExcessLiquidity": "92736.42",
+      "NetLiquidation": "93526.77"
     }
   },
   "fxp3_server": {
@@ -236,30 +236,30 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": null,
-    "book": null,
-    "connected": false,
+    "bar_age_min": 1611.28,
+    "book": "FLAT",
+    "connected": true,
     "errors": [],
     "ok": false,
-    "orders_enabled": null,
-    "port": null,
-    "position_mnq": null,
+    "orders_enabled": true,
+    "port": 4005,
+    "position_mnq": 0.0,
     "reachable": true,
     "service_active": true,
-    "session": null,
+    "session": "ETH",
     "spine": {
       "drift": [],
-      "marker": null,
-      "ok": null
+      "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
+      "ok": true
     },
-    "status_age_sec": 1,
-    "status_ts": "2026-08-22T23:45:20.632443+00:00",
+    "status_age_sec": 6,
+    "status_ts": "2026-08-22T23:46:16.829078+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": null,
-      "BuyingPower": null,
-      "ExcessLiquidity": null,
-      "NetLiquidation": null
+      "AvailableFunds": "93805.02",
+      "BuyingPower": "375220.08",
+      "ExcessLiquidity": "93805.02",
+      "NetLiquidation": "94638.22"
     }
   },
   "host": "droplet",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787442321,
-  "pushed_at_iso": "2026-08-22T23:45:21Z"
+  "pushed_at": 1787442383,
+  "pushed_at_iso": "2026-08-22T23:46:23Z"
 }
