@@ -6,26 +6,26 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 34,
-        "intention_count": 10,
+        "intention_count": 7,
         "near_miss_count": 18,
-        "order_count": 9,
+        "order_count": 6,
         "raw_candidate_count": 903,
         "scored_candidate_count": 34,
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 4011,
+      "duration_ms": 4817,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
         "block_reason_counts": {},
         "blocked_count": 0,
-        "broker_accepted_count": 9,
-        "broker_submit_attempt_count": 9,
-        "buy_count": 5,
+        "broker_accepted_count": 6,
+        "broker_submit_attempt_count": 6,
+        "buy_count": 4,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": null,
-        "intention_count": 10,
+        "intention_count": 7,
         "market_open": true,
         "schema": "cr_submission_diagnostics/v1",
         "scored_candidate_count": 34,
@@ -35,37 +35,37 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-24T14:20:41.920Z",
+    "last_tick_at": "2026-08-24T14:30:45.948Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1613796
+    "uptime": 1613858
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16854.38,
+      "equity": 16854.94,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-24T14:15:29.511582+00:00",
+      "drift_loop": "2026-08-24T14:30:29.840729+00:00",
       "eod_flatten_loop": "2026-08-21T19:55:01.842747+00:00",
       "full_scan_loop": "2026-08-24T10:22:34.646075+00:00",
-      "heartbeat": "2026-08-24T14:30:17.858392+00:00",
+      "heartbeat": "2026-08-24T14:31:17.859029+00:00",
       "signal_loop": "2026-08-24T14:30:17.887457+00:00",
-      "tail_risk_loop": "2026-08-24T14:30:20.336372+00:00"
+      "tail_risk_loop": "2026-08-24T14:31:20.862261+00:00"
     },
     "last_scan_run_id": 108,
     "last_scan_ts": "2026-08-24T10:22:34.637797+00:00",
     "n_positions": 12,
     "n_targets": 12,
     "ok": true,
-    "portfolio_value": 16860.34,
+    "portfolio_value": 16854.09,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1448014.11036
+    "uptime_s": 1448075.667454
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,7 +178,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 5.16,
+    "bar_age_min": 6.36,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -194,8 +194,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 12,
-    "status_ts": "2026-08-24T14:30:09.862308+00:00",
+    "status_age_sec": 1,
+    "status_ts": "2026-08-24T14:31:21.383290+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "99118.28",
@@ -236,7 +236,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 5.3,
+    "bar_age_min": 6.24,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -252,8 +252,8 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 3,
-    "status_ts": "2026-08-24T14:30:18.266934+00:00",
+    "status_age_sec": 8,
+    "status_ts": "2026-08-24T14:31:14.597991+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "49743.17",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787581821,
-  "pushed_at_iso": "2026-08-24T14:30:21Z"
+  "pushed_at": 1787581883,
+  "pushed_at_iso": "2026-08-24T14:31:23Z"
 }
