@@ -6,26 +6,26 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 46,
-        "intention_count": 4,
+        "intention_count": 5,
         "near_miss_count": 27,
-        "order_count": 4,
+        "order_count": 5,
         "raw_candidate_count": 903,
         "scored_candidate_count": 46,
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 5374,
+      "duration_ms": 4990,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
         "block_reason_counts": {},
         "blocked_count": 0,
-        "broker_accepted_count": 4,
-        "broker_submit_attempt_count": 4,
-        "buy_count": 3,
+        "broker_accepted_count": 5,
+        "broker_submit_attempt_count": 5,
+        "buy_count": 1,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": null,
-        "intention_count": 4,
+        "intention_count": 5,
         "market_open": true,
         "schema": "cr_submission_diagnostics/v1",
         "scored_candidate_count": 46,
@@ -35,18 +35,18 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-24T17:22:04.749Z",
+    "last_tick_at": "2026-08-24T17:32:10.145Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1624665
+    "uptime": 1624725
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16665.52,
+      "equity": 16664.93,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-08-24T17:30:34.357683+00:00",
       "eod_flatten_loop": "2026-08-21T19:55:01.842747+00:00",
       "full_scan_loop": "2026-08-24T10:22:34.646075+00:00",
-      "heartbeat": "2026-08-24T17:31:18.074431+00:00",
+      "heartbeat": "2026-08-24T17:32:18.075973+00:00",
       "signal_loop": "2026-08-24T17:30:18.236774+00:00",
-      "tail_risk_loop": "2026-08-24T17:31:30.217185+00:00"
+      "tail_risk_loop": "2026-08-24T17:32:30.094262+00:00"
     },
     "last_scan_run_id": 108,
     "last_scan_ts": "2026-08-24T10:22:34.637797+00:00",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1458883.378791
+    "uptime_s": 1458943.579352
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,7 +178,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 6.37,
+    "bar_age_min": 7.5,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -194,8 +194,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 9,
-    "status_ts": "2026-08-24T17:31:21.960423+00:00",
+    "status_age_sec": 1,
+    "status_ts": "2026-08-24T17:32:30.098640+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "99118.28",
@@ -236,7 +236,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 6.5,
+    "bar_age_min": 7.45,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -252,14 +252,14 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 1,
-    "status_ts": "2026-08-24T17:31:29.796117+00:00",
+    "status_age_sec": 4,
+    "status_ts": "2026-08-24T17:32:27.158429+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "45730.27",
-      "BuyingPower": "235704.64",
-      "ExcessLiquidity": "58926.67",
-      "NetLiquidation": "95546.04"
+      "AvailableFunds": "46319.08",
+      "BuyingPower": "238003.48",
+      "ExcessLiquidity": "59500.87",
+      "NetLiquidation": "96092.04"
     }
   },
   "host": "droplet",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787592691,
-  "pushed_at_iso": "2026-08-24T17:31:31Z"
+  "pushed_at": 1787592751,
+  "pushed_at_iso": "2026-08-24T17:32:31Z"
 }
