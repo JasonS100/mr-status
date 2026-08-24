@@ -6,26 +6,26 @@
       "alpaca_degraded": false,
       "candidate_counts": {
         "filtered_candidate_count": 46,
-        "intention_count": 5,
+        "intention_count": 3,
         "near_miss_count": 28,
-        "order_count": 5,
+        "order_count": 3,
         "raw_candidate_count": 903,
         "scored_candidate_count": 46,
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 3900,
+      "duration_ms": 5219,
       "fmp_degraded": false,
       "mode": "ADJUST",
       "submissionDiagnostics": {
         "block_reason_counts": {},
         "blocked_count": 0,
-        "broker_accepted_count": 5,
-        "broker_submit_attempt_count": 5,
-        "buy_count": 3,
+        "broker_accepted_count": 3,
+        "broker_submit_attempt_count": 3,
+        "buy_count": 2,
         "consecutive_zero_buy_ticks": 0,
         "early_halt_reason": null,
-        "intention_count": 5,
+        "intention_count": 3,
         "market_open": true,
         "schema": "cr_submission_diagnostics/v1",
         "scored_candidate_count": 46,
@@ -35,18 +35,18 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-08-24T16:41:44.762Z",
+    "last_tick_at": "2026-08-24T16:51:48.682Z",
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1622288
+    "uptime": 1622348
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16661.75,
+      "equity": 16664.22,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-08-24T16:45:33.137053+00:00",
       "eod_flatten_loop": "2026-08-21T19:55:01.842747+00:00",
       "full_scan_loop": "2026-08-24T10:22:34.646075+00:00",
-      "heartbeat": "2026-08-24T16:51:18.023002+00:00",
+      "heartbeat": "2026-08-24T16:52:18.023592+00:00",
       "signal_loop": "2026-08-24T16:30:18.118732+00:00",
-      "tail_risk_loop": "2026-08-24T16:51:49.033035+00:00"
+      "tail_risk_loop": "2026-08-24T16:52:52.458969+00:00"
     },
     "last_scan_run_id": 108,
     "last_scan_ts": "2026-08-24T10:22:34.637797+00:00",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1456506.35732
+    "uptime_s": 1456566.258819
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,7 +178,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 6.86,
+    "bar_age_min": 7.78,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -194,8 +194,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 2,
-    "status_ts": "2026-08-24T16:51:51.457546+00:00",
+    "status_age_sec": 6,
+    "status_ts": "2026-08-24T16:52:47.077466+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "99118.28",
@@ -236,7 +236,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 6.75,
+    "bar_age_min": 7.86,
     "book": "SHORT",
     "connected": true,
     "errors": [],
@@ -252,14 +252,14 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 9,
-    "status_ts": "2026-08-24T16:51:44.880805+00:00",
+    "status_age_sec": 2,
+    "status_ts": "2026-08-24T16:52:51.876376+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "44992.88",
-      "BuyingPower": "232805.65",
-      "ExcessLiquidity": "58201.41",
-      "NetLiquidation": "94856.04"
+      "AvailableFunds": "45171.56",
+      "BuyingPower": "233497.58",
+      "ExcessLiquidity": "58374.40",
+      "NetLiquidation": "95020.43"
     }
   },
   "host": "droplet",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787590313,
-  "pushed_at_iso": "2026-08-24T16:51:53Z"
+  "pushed_at": 1787590373,
+  "pushed_at_iso": "2026-08-24T16:52:53Z"
 }
