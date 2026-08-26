@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1757557
+    "uptime": 1757618
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,11 +53,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-26T06:25:23.824183+00:00",
+      "drift_loop": "2026-08-26T06:27:23.826025+00:00",
       "eod_flatten_loop": "2026-08-25T19:55:01.742391+00:00",
       "full_scan_loop": "2026-08-25T10:22:24.553000+00:00",
-      "heartbeat": "2026-08-26T06:26:20.701755+00:00",
-      "signal_loop": "2026-08-26T06:26:21.168794+00:00",
+      "heartbeat": "2026-08-26T06:27:20.703206+00:00",
+      "signal_loop": "2026-08-26T06:27:21.170204+00:00",
       "tail_risk_loop": "2026-08-25T19:59:59.976492+00:00"
     },
     "last_scan_run_id": 109,
@@ -73,6 +73,7 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
+        "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
         "delta1-freshness-check.timer",
         "delta1-disagree-calls.timer",
@@ -82,7 +83,6 @@
         "delta1-lifecycle-mark.timer",
         "delta1-db-prune.timer",
         "delta1-monthly-backtest.timer",
-        "cr11-delta1-positions-refresh.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1591775.49805
+    "uptime_s": 1591836.455872
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -178,7 +178,7 @@
   },
   "fxp2_server": {
     "account": "DUQ897386",
-    "bar_age_min": 6.24,
+    "bar_age_min": 7.35,
     "book": "FLAT",
     "connected": true,
     "errors": [],
@@ -194,8 +194,8 @@
       "marker": "THESIS-SPINE-2026-08-04",
       "ok": true
     },
-    "status_age_sec": 8,
-    "status_ts": "2026-08-26T06:26:14.573619+00:00",
+    "status_age_sec": 3,
+    "status_ts": "2026-08-26T06:27:21.096406+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
       "AvailableFunds": "94583.16",
@@ -236,7 +236,7 @@
   },
   "fxp_server": {
     "account": "DUR398978",
-    "bar_age_min": 6.33,
+    "bar_age_min": 7.26,
     "book": "LONG",
     "connected": true,
     "errors": [],
@@ -252,14 +252,14 @@
       "marker": "THESIS-SPINE-POOLSUM-2026-08-07",
       "ok": true
     },
-    "status_age_sec": 3,
-    "status_ts": "2026-08-26T06:26:20.070254+00:00",
+    "status_age_sec": 8,
+    "status_ts": "2026-08-26T06:27:15.477916+00:00",
     "strategy": "BAYES_ENS_v1",
     "summary": {
-      "AvailableFunds": "9108.17",
-      "BuyingPower": "128334.57",
-      "ExcessLiquidity": "32083.64",
-      "NetLiquidation": "80634.16"
+      "AvailableFunds": "9418.09",
+      "BuyingPower": "129619.38",
+      "ExcessLiquidity": "32404.84",
+      "NetLiquidation": "80981.22"
     }
   },
   "host": "droplet",
@@ -268,6 +268,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787725583,
-  "pushed_at_iso": "2026-08-26T06:26:23Z"
+  "pushed_at": 1787725644,
+  "pushed_at_iso": "2026-08-26T06:27:24Z"
 }
