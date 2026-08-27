@@ -39,14 +39,14 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1889443
+    "uptime": 1889504
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16513.7,
+      "equity": 16509.41,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-08-27T19:00:19.056135+00:00",
       "eod_flatten_loop": "2026-08-26T19:55:01.884329+00:00",
       "full_scan_loop": "2026-08-27T10:22:04.086517+00:00",
-      "heartbeat": "2026-08-27T19:04:23.282249+00:00",
+      "heartbeat": "2026-08-27T19:05:23.283127+00:00",
       "signal_loop": "2026-08-27T18:30:23.887339+00:00",
-      "tail_risk_loop": "2026-08-27T19:04:27.794597+00:00"
+      "tail_risk_loop": "2026-08-27T19:05:26.591846+00:00"
     },
     "last_scan_run_id": 111,
     "last_scan_ts": "2026-08-27T10:22:04.076057+00:00",
@@ -73,13 +73,13 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-disagree-calls.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
         "delta1-lifecycle-mark.timer",
         "delta1-d2-sim-daily.timer",
         "delta1-freshness-check.timer",
+        "delta1-disagree-calls.timer",
         "maint-shadow-delta1.timer",
         "delta1-db-prune.timer",
         "delta1-monthly-backtest.timer",
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1723661.372922
+    "uptime_s": 1723722.378079
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -256,6 +256,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787857468,
-  "pushed_at_iso": "2026-08-27T19:04:28Z"
+  "pushed_at": 1787857530,
+  "pushed_at_iso": "2026-08-27T19:05:30Z"
 }
