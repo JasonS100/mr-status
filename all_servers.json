@@ -1,48 +1,26 @@
 {
   "cr_server": {
-    "engine": "v10",
+    "engine": null,
     "heartbeat": null,
     "last_tick": {
-      "alpaca_degraded": false,
-      "candidate_counts": {
-        "filtered_candidate_count": 40,
-        "intention_count": 12,
-        "near_miss_count": 21,
-        "order_count": 0,
-        "raw_candidate_count": 903,
-        "scored_candidate_count": 40,
-        "universe_symbol_count": 903
-      },
-      "degraded": false,
-      "duration_ms": 5246,
-      "fmp_degraded": false,
-      "mode": "ADJUST",
-      "submissionDiagnostics": {
-        "block_reason_counts": {},
-        "blocked_count": 0,
-        "broker_accepted_count": 0,
-        "broker_submit_attempt_count": 0,
-        "buy_count": 3,
-        "consecutive_zero_buy_ticks": 0,
-        "early_halt_reason": "market_closed",
-        "intention_count": 12,
-        "market_open": false,
-        "schema": "cr_submission_diagnostics/v1",
-        "scored_candidate_count": 40,
-        "suppressed_count": 0,
-        "zero_candidate_reason": null
-      },
-      "universe": "sp500_sp400",
-      "universe_size": 903
+      "alpaca_degraded": null,
+      "candidate_counts": {},
+      "degraded": null,
+      "duration_ms": null,
+      "fmp_degraded": null,
+      "mode": null,
+      "submissionDiagnostics": {},
+      "universe": null,
+      "universe_size": null
     },
-    "last_tick_at": "2026-08-28T22:04:53.198Z",
-    "mode": "ADJUST",
-    "ok": true,
-    "stream_connected": false,
-    "uptime": 1987031
+    "last_tick_at": null,
+    "mode": null,
+    "ok": false,
+    "stream_connected": null,
+    "uptime": 0
   },
   "delta1_server": {
-    "bootstrap": true,
+    "bootstrap": null,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
@@ -52,20 +30,13 @@
       "n_positions": 12,
       "reachable": true
     },
-    "heartbeats": {
-      "drift_loop": "2026-08-28T22:10:03.580088+00:00",
-      "eod_flatten_loop": "2026-08-28T19:55:01.753461+00:00",
-      "full_scan_loop": "2026-08-28T10:22:07.252363+00:00",
-      "heartbeat": "2026-08-28T22:10:25.138205+00:00",
-      "signal_loop": "2026-08-28T22:10:26.001361+00:00",
-      "tail_risk_loop": "2026-08-28T19:59:59.141383+00:00"
-    },
-    "last_scan_run_id": 112,
-    "last_scan_ts": "2026-08-28T10:22:07.243758+00:00",
-    "n_positions": 12,
-    "n_targets": 12,
-    "ok": true,
-    "portfolio_value": 16538.44,
+    "heartbeats": {},
+    "last_scan_run_id": null,
+    "last_scan_ts": null,
+    "n_positions": 0,
+    "n_targets": 0,
+    "ok": false,
+    "portfolio_value": null,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -97,8 +68,8 @@
         "policy": "always"
       }
     },
-    "start_ts": "2026-08-07T20:16:47.376382+00:00",
-    "uptime_s": 1821248.65682
+    "start_ts": null,
+    "uptime_s": 0
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -258,6 +229,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1787955056,
-  "pushed_at_iso": "2026-08-28T22:10:56Z"
+  "pushed_at": 1787955116,
+  "pushed_at_iso": "2026-08-28T22:11:56Z"
 }
