@@ -39,7 +39,7 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 82578
+    "uptime": 82638
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,9 +53,9 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-08-30T13:59:31.549355+00:00",
-      "heartbeat": "2026-08-30T13:59:31.548975+00:00",
-      "signal_loop": "2026-08-30T13:59:31.549402+00:00"
+      "drift_loop": "2026-08-30T14:00:31.550807+00:00",
+      "heartbeat": "2026-08-30T14:00:31.550505+00:00",
+      "signal_loop": "2026-08-30T14:00:31.550851+00:00"
     },
     "last_scan_run_id": 112,
     "last_scan_ts": "2026-08-28T10:21:56.648419+00:00",
@@ -70,7 +70,6 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-db-prune.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d3-shadow-scan.timer",
         "delta1-d2-sim-daily.timer",
@@ -83,6 +82,7 @@
         "delta1-lifecycle-mark.timer",
         "delta1-monthly-backtest.timer",
         "delta1-signal-monitor.timer",
+        "delta1-db-prune.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -96,7 +96,7 @@
       }
     },
     "start_ts": "2026-08-29T15:03:29.934212+00:00",
-    "uptime_s": 82564.533911
+    "uptime_s": 82624.593005
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -256,6 +256,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1788098374,
-  "pushed_at_iso": "2026-08-30T13:59:34Z"
+  "pushed_at": 1788098434,
+  "pushed_at_iso": "2026-08-30T14:00:34Z"
 }
