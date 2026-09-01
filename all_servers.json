@@ -39,23 +39,23 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 278148
+    "uptime": 278210
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16719.6,
+      "equity": 16720.36,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 21,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-01T20:18:37.488942+00:00",
-      "heartbeat": "2026-09-01T20:18:37.488645+00:00",
-      "signal_loop": "2026-09-01T20:18:37.574569+00:00"
+      "drift_loop": "2026-09-01T20:19:37.490030+00:00",
+      "heartbeat": "2026-09-01T20:19:37.489670+00:00",
+      "signal_loop": "2026-09-01T20:19:37.575617+00:00"
     },
     "last_scan_run_id": 115,
     "last_scan_ts": "2026-09-01T10:21:48.971667+00:00",
@@ -71,7 +71,6 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-lifecycle-mark.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d3-shadow-audit.timer",
         "delta1-d3-shadow-scan.timer",
@@ -81,6 +80,7 @@
         "maint-shadow-delta1.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
+        "delta1-lifecycle-mark.timer",
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
         "delta1-monthly-backtest.timer",
@@ -97,7 +97,7 @@
       }
     },
     "start_ts": "2026-09-01T20:12:37.455256+00:00",
-    "uptime_s": 387.573843
+    "uptime_s": 449.840274
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -257,6 +257,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1788293945,
-  "pushed_at_iso": "2026-09-01T20:19:05Z"
+  "pushed_at": 1788294008,
+  "pushed_at_iso": "2026-09-01T20:20:08Z"
 }
