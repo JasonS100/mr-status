@@ -39,24 +39,24 @@
     "mode": "ADJUST",
     "ok": true,
     "stream_connected": false,
-    "uptime": 339691
+    "uptime": 339752
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16674.25,
+      "equity": 16666.53,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 21,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-02T13:24:38.721638+00:00",
+      "drift_loop": "2026-09-02T13:25:38.723187+00:00",
       "full_scan_loop": "2026-09-02T10:22:33.112337+00:00",
-      "heartbeat": "2026-09-02T13:24:38.721310+00:00",
-      "signal_loop": "2026-09-02T13:24:38.721667+00:00"
+      "heartbeat": "2026-09-02T13:25:38.722926+00:00",
+      "signal_loop": "2026-09-02T13:25:38.723212+00:00"
     },
     "last_scan_run_id": 1000000,
     "last_scan_ts": "2026-09-02T10:22:33.104554+00:00",
@@ -72,7 +72,6 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-freshness-check.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-disagree-calls.timer",
         "maint-shadow-delta1.timer",
@@ -82,6 +81,7 @@
         "delta1-lifecycle-mark.timer",
         "delta1-d3-shadow-scan.timer",
         "delta1-d2-sim-daily.timer",
+        "delta1-freshness-check.timer",
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
         "delta1-monthly-backtest.timer",
@@ -98,7 +98,7 @@
       }
     },
     "start_ts": "2026-09-01T20:12:37.455256+00:00",
-    "uptime_s": 61930.615925
+    "uptime_s": 61991.330406
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -258,6 +258,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1788355488,
-  "pushed_at_iso": "2026-09-02T13:24:48Z"
+  "pushed_at": 1788355549,
+  "pushed_at_iso": "2026-09-02T13:25:49Z"
 }
