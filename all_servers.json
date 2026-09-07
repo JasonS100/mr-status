@@ -39,7 +39,7 @@
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 761170
+    "uptime": 761235
   },
   "delta1_server": {
     "bootstrap": true,
@@ -53,11 +53,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-07T10:29:25.168101+00:00",
+      "drift_loop": "2026-09-07T10:30:25.169079+00:00",
       "eod_flatten_loop": "2026-09-04T19:55:02.515971+00:00",
       "full_scan_loop": "2026-09-07T10:22:24.494519+00:00",
-      "heartbeat": "2026-09-07T10:29:09.721378+00:00",
-      "signal_loop": "2026-09-07T10:29:09.721747+00:00",
+      "heartbeat": "2026-09-07T10:30:09.723757+00:00",
+      "signal_loop": "2026-09-07T10:30:09.724081+00:00",
       "tail_risk_loop": "2026-09-04T19:59:59.948266+00:00"
     },
     "last_scan_run_id": 1000005,
@@ -74,9 +74,9 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-d3-shadow-scan.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-d2-sim-daily.timer",
+        "delta1-d3-shadow-scan.timer",
         "delta1-freshness-check.timer",
         "delta1-disagree-calls.timer",
         "maint-shadow-delta1.timer",
@@ -100,7 +100,7 @@
       }
     },
     "start_ts": "2026-09-01T20:12:37.455256+00:00",
-    "uptime_s": 483408.953752
+    "uptime_s": 483473.955693
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -252,6 +252,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1788776966,
-  "pushed_at_iso": "2026-09-07T10:29:26Z"
+  "pushed_at": 1788777031,
+  "pushed_at_iso": "2026-09-07T10:30:31Z"
 }
