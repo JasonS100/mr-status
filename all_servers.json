@@ -39,7 +39,7 @@
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 780702
+    "uptime": 780762
   },
   "delta1_server": {
     "bootstrap": true,
@@ -56,7 +56,7 @@
       "drift_loop": "2026-09-07T15:45:29.732336+00:00",
       "eod_flatten_loop": "2026-09-04T19:55:02.515971+00:00",
       "full_scan_loop": "2026-09-07T10:22:24.494519+00:00",
-      "heartbeat": "2026-09-07T15:54:10.175259+00:00",
+      "heartbeat": "2026-09-07T15:55:10.177429+00:00",
       "signal_loop": "2026-09-07T15:30:10.209159+00:00",
       "tail_risk_loop": "2026-09-04T19:59:59.948266+00:00"
     },
@@ -74,8 +74,8 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "cr11-delta1-positions-refresh.timer",
         "delta1-no-submission-alert.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-disagree-calls.timer",
         "delta1-composite-daily.timer",
         "delta1-d3-shadow-audit.timer",
@@ -100,7 +100,7 @@
       }
     },
     "start_ts": "2026-09-01T20:12:37.455256+00:00",
-    "uptime_s": 502941.273744
+    "uptime_s": 503001.581748
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -252,6 +252,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1788796499,
-  "pushed_at_iso": "2026-09-07T15:54:58Z"
+  "pushed_at": 1788796559,
+  "pushed_at_iso": "2026-09-07T15:55:59Z"
 }
