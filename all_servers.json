@@ -39,33 +39,33 @@
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 867395
+    "uptime": 867460
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 17472.06,
+      "equity": 17483.04,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-08T15:45:16.335795+00:00",
+      "drift_loop": "2026-09-08T16:00:17.235581+00:00",
       "eod_flatten_loop": "2026-09-07T19:55:05.795144+00:00",
       "full_scan_loop": "2026-09-08T10:22:26.554021+00:00",
-      "heartbeat": "2026-09-08T15:59:12.523506+00:00",
+      "heartbeat": "2026-09-08T16:00:12.533225+00:00",
       "signal_loop": "2026-09-08T15:30:12.567503+00:00",
-      "tail_risk_loop": "2026-09-08T15:59:51.313252+00:00"
+      "tail_risk_loop": "2026-09-08T16:00:54.543592+00:00"
     },
     "last_scan_run_id": 1000006,
     "last_scan_ts": "2026-09-08T10:22:26.546727+00:00",
     "n_positions": 12,
     "n_targets": 12,
     "ok": true,
-    "portfolio_value": 17476.58,
+    "portfolio_value": 17481.21,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -74,10 +74,10 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-no-submission-alert.timer",
-        "cr11-delta1-positions-refresh.timer",
         "delta1-disagree-calls.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-hourly-pnl.timer",
+        "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
         "delta1-d3-shadow-audit.timer",
         "delta1-lifecycle-mark.timer",
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-09-01T20:12:37.455256+00:00",
-    "uptime_s": 589634.096562
+    "uptime_s": 589699.00034
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -253,6 +253,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1788883191,
-  "pushed_at_iso": "2026-09-08T15:59:51Z"
+  "pushed_at": 1788883256,
+  "pushed_at_iso": "2026-09-08T16:00:56Z"
 }
