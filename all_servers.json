@@ -14,7 +14,7 @@
         "universe_symbol_count": 903
       },
       "degraded": false,
-      "duration_ms": 5457,
+      "duration_ms": 4188,
       "fmp_degraded": false,
       "mode": "OBSERVE",
       "submissionDiagnostics": {
@@ -23,7 +23,7 @@
         "broker_accepted_count": 0,
         "broker_submit_attempt_count": 0,
         "buy_count": 0,
-        "consecutive_zero_buy_ticks": 1116,
+        "consecutive_zero_buy_ticks": 1117,
         "early_halt_reason": null,
         "intention_count": 0,
         "market_open": true,
@@ -35,18 +35,18 @@
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-09-10T18:19:08.496Z",
+    "last_tick_at": "2026-09-10T18:29:13.971Z",
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1049115
+    "uptime": 1049175
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 29670.31,
+      "equity": 29666.88,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
@@ -56,9 +56,9 @@
       "drift_loop": "2026-09-10T18:15:27.671567+00:00",
       "eod_flatten_loop": "2026-09-09T19:55:00.524114+00:00",
       "full_scan_loop": "2026-09-10T10:22:17.952864+00:00",
-      "heartbeat": "2026-09-10T18:28:15.650388+00:00",
+      "heartbeat": "2026-09-10T18:29:15.651625+00:00",
       "signal_loop": "2026-09-10T17:30:15.810782+00:00",
-      "tail_risk_loop": "2026-09-10T18:28:30.550255+00:00"
+      "tail_risk_loop": "2026-09-10T18:29:31.040507+00:00"
     },
     "last_scan_run_id": 1000009,
     "last_scan_ts": "2026-09-10T10:22:17.945120+00:00",
@@ -74,8 +74,8 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "cr11-delta1-positions-refresh.timer",
         "delta1-hourly-pnl.timer",
+        "cr11-delta1-positions-refresh.timer",
         "delta1-disagree-calls.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-09-09T14:48:13.549675+00:00",
-    "uptime_s": 99617.877558
+    "uptime_s": 99677.979916
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -253,6 +253,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1789064911,
-  "pushed_at_iso": "2026-09-10T18:28:31Z"
+  "pushed_at": 1789064971,
+  "pushed_at_iso": "2026-09-10T18:29:31Z"
 }
