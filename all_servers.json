@@ -39,25 +39,25 @@
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1030845
+    "uptime": 1030910
   },
   "delta1_server": {
     "bootstrap": true,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 29764.94,
+      "equity": 29758.65,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-10T13:23:20.279271+00:00",
+      "drift_loop": "2026-09-10T13:24:20.280245+00:00",
       "eod_flatten_loop": "2026-09-09T19:55:00.524114+00:00",
       "full_scan_loop": "2026-09-10T10:22:17.952864+00:00",
-      "heartbeat": "2026-09-10T13:23:15.278101+00:00",
-      "signal_loop": "2026-09-10T13:23:15.338573+00:00",
+      "heartbeat": "2026-09-10T13:24:15.278966+00:00",
+      "signal_loop": "2026-09-10T13:24:15.339474+00:00",
       "tail_risk_loop": "2026-09-09T19:59:59.792945+00:00"
     },
     "last_scan_run_id": 1000009,
@@ -74,7 +74,6 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-freshness-check.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-hourly-pnl.timer",
         "delta1-disagree-calls.timer",
@@ -88,6 +87,7 @@
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
         "delta1-monthly-backtest.timer",
+        "delta1-freshness-check.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -101,7 +101,7 @@
       }
     },
     "start_ts": "2026-09-09T14:48:13.549675+00:00",
-    "uptime_s": 81348.049455
+    "uptime_s": 81413.35438
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -253,6 +253,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1789046641,
-  "pushed_at_iso": "2026-09-10T13:24:01Z"
+  "pushed_at": 1789046707,
+  "pushed_at_iso": "2026-09-10T13:25:07Z"
 }
