@@ -6,36 +6,36 @@
       "alpaca_degraded": true,
       "candidate_counts": {},
       "degraded": true,
-      "duration_ms": 61,
+      "duration_ms": 50,
       "fmp_degraded": false,
       "mode": "OBSERVE",
       "submissionDiagnostics": {},
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-09-21T11:20:30.473Z",
+    "last_tick_at": "2026-09-21T11:30:30.561Z",
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1974381
+    "uptime": 1974441
   },
   "delta1_server": {
     "bootstrap": false,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 29779.51,
+      "equity": 29774.6,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-21T11:29:07.623836+00:00",
+      "drift_loop": "2026-09-21T11:30:07.637759+00:00",
       "eod_flatten_loop": "2026-09-18T19:55:01.803600+00:00",
       "full_scan_loop": "2026-09-21T10:22:30.935564+00:00",
-      "heartbeat": "2026-09-21T11:29:34.376050+00:00",
-      "signal_loop": "2026-09-21T11:29:04.425923+00:00",
+      "heartbeat": "2026-09-21T11:30:34.377176+00:00",
+      "signal_loop": "2026-09-21T11:30:04.427185+00:00",
       "tail_risk_loop": "2026-09-18T19:59:59.936922+00:00"
     },
     "last_scan_run_id": 1000021,
@@ -52,8 +52,6 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-d3-shadow-scan.timer",
-        "delta1-d3-sim-daily.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-freshness-check.timer",
         "delta1-hourly-pnl.timer",
@@ -63,8 +61,10 @@
         "delta1-composite-daily.timer",
         "delta1-d3-shadow-audit.timer",
         "delta1-lifecycle-mark.timer",
+        "delta1-d3-shadow-scan.timer",
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
+        "delta1-d3-sim-daily.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -78,7 +78,7 @@
       }
     },
     "start_ts": "2026-09-09T14:48:13.549675+00:00",
-    "uptime_s": 1024883.852264
+    "uptime_s": 1024944.1156
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -230,6 +230,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1789990177,
-  "pushed_at_iso": "2026-09-21T11:29:37Z"
+  "pushed_at": 1789990237,
+  "pushed_at_iso": "2026-09-21T11:30:37Z"
 }
