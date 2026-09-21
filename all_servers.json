@@ -6,36 +6,36 @@
       "alpaca_degraded": true,
       "candidate_counts": {},
       "degraded": true,
-      "duration_ms": 44,
+      "duration_ms": 50,
       "fmp_degraded": false,
       "mode": "OBSERVE",
       "submissionDiagnostics": {},
       "universe": "sp500_sp400",
       "universe_size": 903
     },
-    "last_tick_at": "2026-09-21T17:20:33.405Z",
+    "last_tick_at": "2026-09-21T17:30:33.473Z",
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 1995984
+    "uptime": 1996045
   },
   "delta1_server": {
     "bootstrap": false,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 29634.72,
+      "equity": 29625.56,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-21T17:29:09.408901+00:00",
+      "drift_loop": "2026-09-21T17:30:09.432272+00:00",
       "eod_flatten_loop": "2026-09-18T19:55:01.803600+00:00",
       "full_scan_loop": "2026-09-21T10:22:30.935564+00:00",
-      "heartbeat": "2026-09-21T17:29:34.797790+00:00",
-      "signal_loop": "2026-09-21T17:29:04.958821+00:00",
+      "heartbeat": "2026-09-21T17:30:34.799171+00:00",
+      "signal_loop": "2026-09-21T17:30:04.961679+00:00",
       "tail_risk_loop": "2026-09-18T19:59:59.936922+00:00"
     },
     "last_scan_run_id": 1000021,
@@ -52,9 +52,9 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-hourly-pnl.timer",
         "cr11-delta1-positions-refresh.timer",
         "delta1-disagree-calls.timer",
+        "delta1-hourly-pnl.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
         "delta1-d3-shadow-audit.timer",
@@ -78,7 +78,7 @@
       }
     },
     "start_ts": "2026-09-09T14:48:13.549675+00:00",
-    "uptime_s": 1046487.630114
+    "uptime_s": 1046547.887833
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -230,6 +230,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1790011781,
-  "pushed_at_iso": "2026-09-21T17:29:41Z"
+  "pushed_at": 1790011841,
+  "pushed_at_iso": "2026-09-21T17:30:41Z"
 }
