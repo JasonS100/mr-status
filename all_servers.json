@@ -17,25 +17,25 @@
     "mode": "OBSERVE",
     "ok": true,
     "stream_connected": false,
-    "uptime": 2064764
+    "uptime": 2064825
   },
   "delta1_server": {
     "bootstrap": false,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 29673.65,
+      "equity": 29650.84,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 12,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-09-22T12:35:12.705432+00:00",
+      "drift_loop": "2026-09-22T12:36:12.706816+00:00",
       "eod_flatten_loop": "2026-09-21T19:55:04.611834+00:00",
       "full_scan_loop": "2026-09-22T10:22:41.145679+00:00",
-      "heartbeat": "2026-09-22T12:35:36.129172+00:00",
-      "signal_loop": "2026-09-22T12:35:06.244164+00:00",
+      "heartbeat": "2026-09-22T12:36:36.130512+00:00",
+      "signal_loop": "2026-09-22T12:36:06.245398+00:00",
       "tail_risk_loop": "2026-09-18T19:59:59.936922+00:00"
     },
     "last_scan_run_id": 1000023,
@@ -52,7 +52,6 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "cr11-delta1-positions-refresh.timer",
         "delta1-freshness-check.timer",
         "delta1-hourly-pnl.timer",
         "delta1-disagree-calls.timer",
@@ -65,6 +64,7 @@
         "delta1-d3-sim-daily.timer",
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
+        "cr11-delta1-positions-refresh.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -78,7 +78,7 @@
       }
     },
     "start_ts": "2026-09-09T14:48:13.549675+00:00",
-    "uptime_s": 1115267.441323
+    "uptime_s": 1115327.912188
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -230,6 +230,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1790080561,
-  "pushed_at_iso": "2026-09-22T12:36:01Z"
+  "pushed_at": 1790080621,
+  "pushed_at_iso": "2026-09-22T12:37:01Z"
 }
