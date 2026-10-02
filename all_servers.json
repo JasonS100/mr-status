@@ -24,17 +24,17 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 28260.5,
+      "equity": 28261.56,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 15,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-10-02T20:04:01.017934+00:00",
+      "drift_loop": "2026-10-02T20:05:01.018751+00:00",
       "eod_flatten_loop": "2026-10-02T19:55:00.518341+00:00",
-      "heartbeat": "2026-10-02T20:03:53.934104+00:00",
-      "signal_loop": "2026-10-02T20:04:24.415656+00:00",
+      "heartbeat": "2026-10-02T20:04:53.935773+00:00",
+      "signal_loop": "2026-10-02T20:05:24.416112+00:00",
       "tail_risk_loop": "2026-10-02T19:59:59.918787+00:00"
     },
     "last_scan_run_id": 1000039,
@@ -42,7 +42,7 @@
     "n_positions": 15,
     "n_targets": 10,
     "ok": true,
-    "portfolio_value": 28259.91,
+    "portfolio_value": 28260.43,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -51,7 +51,6 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
         "delta1-d3-shadow-audit.timer",
         "delta1-lifecycle-mark.timer",
@@ -62,6 +61,7 @@
         "delta1-d3-sim-daily.timer",
         "delta1-freshness-check.timer",
         "maint-shadow-delta1.timer",
+        "delta1-no-submission-alert.timer",
         "mr-status-push.timer"
       ],
       "loops": {
@@ -75,7 +75,7 @@
       }
     },
     "start_ts": "2026-10-02T14:30:53.429717+00:00",
-    "uptime_s": 20038.850734
+    "uptime_s": 20099.082458
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -227,6 +227,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1790971492,
-  "pushed_at_iso": "2026-10-02T20:04:52Z"
+  "pushed_at": 1790971552,
+  "pushed_at_iso": "2026-10-02T20:05:52Z"
 }
