@@ -20,23 +20,26 @@
     "uptime": 0
   },
   "delta1_server": {
-    "bootstrap": null,
+    "bootstrap": false,
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 28736.37,
+      "equity": 28707.12,
       "mismatch": false,
       "mismatch_reasons": [],
-      "n_positions": 15,
+      "n_positions": 16,
       "reachable": true
     },
-    "heartbeats": {},
-    "last_scan_run_id": null,
-    "last_scan_ts": null,
-    "n_positions": 0,
-    "n_targets": 0,
-    "ok": false,
-    "portfolio_value": null,
+    "heartbeats": {
+      "drift_loop": "2026-10-06T14:07:34.412903+00:00",
+      "signal_loop": "2026-10-06T14:07:34.605730+00:00"
+    },
+    "last_scan_run_id": 1000043,
+    "last_scan_ts": "2026-10-06T14:06:27.015868+00:00",
+    "n_positions": 15,
+    "n_targets": 11,
+    "ok": true,
+    "portfolio_value": 28744.73,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -67,8 +70,8 @@
         "policy": "always"
       }
     },
-    "start_ts": null,
-    "uptime_s": 0
+    "start_ts": "2026-10-06T14:07:34.208335+00:00",
+    "uptime_s": 39.198613
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -220,6 +223,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1791295633,
-  "pushed_at_iso": "2026-10-06T14:07:13Z"
+  "pushed_at": 1791295693,
+  "pushed_at_iso": "2026-10-06T14:08:13Z"
 }
