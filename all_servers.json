@@ -24,7 +24,7 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 28547.98,
+      "equity": 28554.67,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 16,
@@ -32,9 +32,9 @@
     },
     "heartbeats": {
       "drift_loop": "2026-10-06T15:53:38.662083+00:00",
-      "heartbeat": "2026-10-06T15:59:34.568303+00:00",
+      "heartbeat": "2026-10-06T16:00:34.569117+00:00",
       "signal_loop": "2026-10-06T15:07:35.055223+00:00",
-      "tail_risk_loop": "2026-10-06T15:59:51.439652+00:00"
+      "tail_risk_loop": "2026-10-06T16:00:52.910668+00:00"
     },
     "last_scan_run_id": 1000043,
     "last_scan_ts": "2026-10-06T14:06:27.015868+00:00",
@@ -50,8 +50,8 @@
         "0 22 * * * /opt/trading/bft_daily_digest.sh >> /opt/trading/bft-mes/logs/digest.log 2>&1"
       ],
       "host_timers": [
-        "delta1-no-submission-alert.timer",
         "delta1-hourly-pnl.timer",
+        "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
         "delta1-d3-shadow-audit.timer",
         "delta1-lifecycle-mark.timer",
@@ -73,7 +73,7 @@
       }
     },
     "start_ts": "2026-10-06T14:07:34.208335+00:00",
-    "uptime_s": 6738.628299
+    "uptime_s": 6799.105204
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -225,6 +225,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1791302393,
-  "pushed_at_iso": "2026-10-06T15:59:53Z"
+  "pushed_at": 1791302453,
+  "pushed_at_iso": "2026-10-06T16:00:53Z"
 }
