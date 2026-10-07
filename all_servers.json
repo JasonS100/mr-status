@@ -24,18 +24,18 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 28398.04,
+      "equity": 28397.86,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 16,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-10-07T21:03:31.550452+00:00",
+      "drift_loop": "2026-10-07T21:04:31.551262+00:00",
       "eod_flatten_loop": "2026-10-07T19:55:01.933039+00:00",
       "full_scan_loop": "2026-10-07T10:23:07.279203+00:00",
-      "heartbeat": "2026-10-07T21:03:10.378717+00:00",
-      "signal_loop": "2026-10-07T21:03:10.379466+00:00",
+      "heartbeat": "2026-10-07T21:04:10.379749+00:00",
+      "signal_loop": "2026-10-07T21:04:10.380052+00:00",
       "tail_risk_loop": "2026-10-07T19:59:59.804488+00:00"
     },
     "last_scan_run_id": 1000044,
@@ -62,7 +62,8 @@
         "delta1-composite-daily.timer",
         "delta1-lifecycle-mark.timer",
         "delta1-signal-monitor.timer",
-        "delta1-db-prune.timer"
+        "delta1-db-prune.timer",
+        "tdp-heartbeat-push.timer"
       ],
       "loops": {
         "drift_s": 900,
@@ -75,7 +76,7 @@
       }
     },
     "start_ts": "2026-10-07T01:19:07.141049+00:00",
-    "uptime_s": 71080.991093
+    "uptime_s": 71141.194077
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -227,6 +228,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1791407028,
-  "pushed_at_iso": "2026-10-07T21:03:48Z"
+  "pushed_at": 1791407088,
+  "pushed_at_iso": "2026-10-07T21:04:48Z"
 }
