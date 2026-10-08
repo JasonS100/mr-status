@@ -24,25 +24,25 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 28239.39,
+      "equity": 28239.5,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 17,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-10-08T14:45:49.712692+00:00",
+      "drift_loop": "2026-10-08T15:00:50.179852+00:00",
       "full_scan_loop": "2026-10-08T10:23:12.183453+00:00",
-      "heartbeat": "2026-10-08T14:59:25.337238+00:00",
+      "heartbeat": "2026-10-08T15:00:25.339075+00:00",
       "signal_loop": "2026-10-08T14:30:25.356718+00:00",
-      "tail_risk_loop": "2026-10-08T14:59:59.794941+00:00"
+      "tail_risk_loop": "2026-10-08T15:00:59.695756+00:00"
     },
     "last_scan_run_id": 1000046,
     "last_scan_ts": "2026-10-08T10:23:12.173151+00:00",
     "n_positions": 17,
     "n_targets": 12,
     "ok": true,
-    "portfolio_value": 28273.7,
+    "portfolio_value": 28245.34,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -52,6 +52,7 @@
       ],
       "host_timers": [
         "delta1-hourly-pnl.timer",
+        "gts-delta1-overlay-shadow.timer",
         "delta1-no-submission-alert.timer",
         "delta1-composite-daily.timer",
         "delta1-lifecycle-mark.timer",
@@ -60,7 +61,6 @@
         "maint-shadow-delta1.timer",
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
-        "gts-delta1-overlay-shadow.timer",
         "tdp-heartbeat-push.timer"
       ],
       "loops": {
@@ -74,7 +74,7 @@
       }
     },
     "start_ts": "2026-10-07T21:58:23.751838+00:00",
-    "uptime_s": 61296.046615
+    "uptime_s": 61356.275418
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -226,6 +226,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1791471600,
-  "pushed_at_iso": "2026-10-08T15:00:00Z"
+  "pushed_at": 1791471660,
+  "pushed_at_iso": "2026-10-08T15:01:00Z"
 }
