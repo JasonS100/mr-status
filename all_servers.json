@@ -24,7 +24,7 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 17832.32,
+      "equity": 17828.33,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 17,
@@ -34,16 +34,16 @@
       "drift_loop": "2026-10-15T19:46:46.049099+00:00",
       "eod_flatten_loop": "2026-10-15T19:55:02.333628+00:00",
       "full_scan_loop": "2026-10-15T10:23:13.380179+00:00",
-      "heartbeat": "2026-10-15T19:58:29.687919+00:00",
+      "heartbeat": "2026-10-15T19:59:29.688619+00:00",
       "signal_loop": "2026-10-15T19:30:35.376642+00:00",
-      "tail_risk_loop": "2026-10-15T19:59:28.327768+00:00"
+      "tail_risk_loop": "2026-10-15T19:59:59.998049+00:00"
     },
     "last_scan_run_id": 1000055,
     "last_scan_ts": "2026-10-15T10:23:13.353796+00:00",
     "n_positions": 17,
     "n_targets": 12,
     "ok": true,
-    "portfolio_value": 17811.26,
+    "portfolio_value": 17830.97,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -51,8 +51,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "gts-delta1-overlay-shadow.timer",
         "delta1-no-submission-alert.timer",
+        "gts-delta1-overlay-shadow.timer",
         "delta1-lifecycle-mark.timer",
         "delta1-d3-shadow-scan.timer",
         "delta1-freshness-check.timer",
@@ -73,7 +73,7 @@
       }
     },
     "start_ts": "2026-10-15T01:08:27.594089+00:00",
-    "uptime_s": 67860.757145
+    "uptime_s": 67921.340278
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -225,6 +225,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1792094368,
-  "pushed_at_iso": "2026-10-15T19:59:28Z"
+  "pushed_at": 1792094430,
+  "pushed_at_iso": "2026-10-15T20:00:30Z"
 }
