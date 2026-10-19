@@ -24,7 +24,7 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 17542.48,
+      "equity": 17547.32,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 17,
@@ -34,9 +34,9 @@
       "drift_loop": "2026-10-19T19:49:17.639982+00:00",
       "eod_flatten_loop": "2026-10-19T19:55:17.051418+00:00",
       "full_scan_loop": "2026-10-19T10:23:38.080221+00:00",
-      "heartbeat": "2026-10-19T19:57:59.201586+00:00",
+      "heartbeat": "2026-10-19T19:58:59.204021+00:00",
       "signal_loop": "2026-10-19T19:30:28.798328+00:00",
-      "tail_risk_loop": "2026-10-19T19:58:44.863013+00:00"
+      "tail_risk_loop": "2026-10-19T19:59:45.192395+00:00"
     },
     "last_scan_run_id": 1000059,
     "last_scan_ts": "2026-10-19T10:23:38.009301+00:00",
@@ -45,36 +45,19 @@
     "ok": true,
     "portfolio_value": 17560.51,
     "schedule": {
-      "error": null,
+      "error": "TimeoutExpired: Command '['systemctl', 'list-timers', '--all', '--no-pager', '--no-legend']' timed out after 4 seconds",
       "full_scan_et": "06:00",
-      "host_cron": [
-        "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
-      ],
-      "host_timers": [
-        "gts-delta1-overlay-shadow.timer",
-        "delta1-no-submission-alert.timer",
-        "delta1-lifecycle-mark.timer",
-        "delta1-capsim-shadow.timer",
-        "delta1-d3-shadow-scan.timer",
-        "delta1-freshness-check.timer",
-        "maint-shadow-delta1.timer",
-        "delta1-hourly-pnl.timer",
-        "delta1-signal-monitor.timer",
-        "delta1-db-prune.timer",
-        "tdp-heartbeat-push.timer"
-      ],
+      "host_cron": null,
+      "host_timers": null,
       "loops": {
         "drift_s": 900,
         "heartbeat_s": 60,
         "signal_s": 3600
       },
-      "service_restart": {
-        "delay": "10s",
-        "policy": "always"
-      }
+      "service_restart": null
     },
     "start_ts": "2026-10-15T01:08:27.594089+00:00",
-    "uptime_s": 413417.338012
+    "uptime_s": 413477.612862
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -226,6 +209,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1792439926,
-  "pushed_at_iso": "2026-10-19T19:58:46Z"
+  "pushed_at": 1792439986,
+  "pushed_at_iso": "2026-10-19T19:59:46Z"
 }
