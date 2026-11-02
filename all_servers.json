@@ -24,24 +24,24 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 17223.13,
+      "equity": 17222.58,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 17,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-11-02T14:23:58.282858+00:00",
+      "drift_loop": "2026-11-02T14:24:58.283055+00:00",
       "full_scan_loop": "2026-11-02T11:22:52.146335+00:00",
-      "heartbeat": "2026-11-02T14:23:59.659997+00:00",
-      "signal_loop": "2026-11-02T14:23:59.660289+00:00"
+      "heartbeat": "2026-11-02T14:24:59.661009+00:00",
+      "signal_loop": "2026-11-02T14:24:59.661287+00:00"
     },
     "last_scan_run_id": 1000078,
     "last_scan_ts": "2026-11-02T11:22:52.132354+00:00",
     "n_positions": 17,
     "n_targets": 12,
     "ok": true,
-    "portfolio_value": 17222.96,
+    "portfolio_value": 17222.58,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -49,7 +49,6 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-freshness-check.timer",
         "gts-delta1-overlay-shadow.timer",
         "maint-shadow-delta1.timer",
         "delta1-hourly-pnl.timer",
@@ -57,6 +56,7 @@
         "delta1-lifecycle-mark.timer",
         "delta1-capsim-shadow.timer",
         "delta1-d3-shadow-scan.timer",
+        "delta1-freshness-check.timer",
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
         "tdp-heartbeat-push.timer"
@@ -72,7 +72,7 @@
       }
     },
     "start_ts": "2026-10-30T20:12:48.865358+00:00",
-    "uptime_s": 238294.798125
+    "uptime_s": 238354.838288
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -224,6 +224,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1793629463,
-  "pushed_at_iso": "2026-11-02T14:24:23Z"
+  "pushed_at": 1793629524,
+  "pushed_at_iso": "2026-11-02T14:25:24Z"
 }
