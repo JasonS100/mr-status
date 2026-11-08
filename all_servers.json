@@ -31,11 +31,11 @@
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-11-08T13:58:26.097995+00:00",
+      "drift_loop": "2026-11-08T13:59:26.098801+00:00",
       "eod_flatten_loop": "2026-11-06T20:55:01.720270+00:00",
       "full_scan_loop": "2026-11-06T11:22:33.497229+00:00",
-      "heartbeat": "2026-11-08T13:58:16.722495+00:00",
-      "signal_loop": "2026-11-08T13:58:16.722759+00:00",
+      "heartbeat": "2026-11-08T13:59:16.723534+00:00",
+      "signal_loop": "2026-11-08T13:59:16.723777+00:00",
       "tail_risk_loop": "2026-11-06T20:59:59.953989+00:00"
     },
     "last_scan_run_id": 1000086,
@@ -51,7 +51,6 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-db-prune.timer",
         "delta1-d3-shadow-scan.timer",
         "delta1-freshness-check.timer",
         "gts-delta1-overlay-shadow.timer",
@@ -61,6 +60,7 @@
         "delta1-lifecycle-mark.timer",
         "delta1-capsim-shadow.timer",
         "delta1-signal-monitor.timer",
+        "delta1-db-prune.timer",
         "tdp-heartbeat-push.timer"
       ],
       "loops": {
@@ -74,7 +74,7 @@
       }
     },
     "start_ts": "2026-10-30T20:12:48.865358+00:00",
-    "uptime_s": 755175.908738
+    "uptime_s": 755236.054017
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -226,6 +226,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1794146345,
-  "pushed_at_iso": "2026-11-08T13:59:05Z"
+  "pushed_at": 1794146405,
+  "pushed_at_iso": "2026-11-08T14:00:05Z"
 }
