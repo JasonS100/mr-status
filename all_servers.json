@@ -24,26 +24,26 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 16014.51,
+      "equity": 16015.83,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 17,
       "reachable": true
     },
     "heartbeats": {
-      "drift_loop": "2026-11-11T15:15:26.473768+00:00",
+      "drift_loop": "2026-11-11T15:30:27.635233+00:00",
       "eod_flatten_loop": "2026-11-10T20:55:01.468374+00:00",
       "full_scan_loop": "2026-11-11T11:22:37.235626+00:00",
-      "heartbeat": "2026-11-11T15:29:23.095440+00:00",
-      "signal_loop": "2026-11-11T14:30:23.000810+00:00",
-      "tail_risk_loop": "2026-11-11T15:29:42.463218+00:00"
+      "heartbeat": "2026-11-11T15:30:23.096228+00:00",
+      "signal_loop": "2026-11-11T15:30:23.105615+00:00",
+      "tail_risk_loop": "2026-11-11T15:30:42.695139+00:00"
     },
     "last_scan_run_id": 1000092,
     "last_scan_ts": "2026-11-11T11:22:37.215810+00:00",
     "n_positions": 17,
     "n_targets": 12,
     "ok": true,
-    "portfolio_value": 15939.61,
+    "portfolio_value": 16014.92,
     "schedule": {
       "error": null,
       "full_scan_et": "06:00",
@@ -51,8 +51,8 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-hourly-pnl.timer",
         "gts-delta1-overlay-shadow.timer",
+        "delta1-hourly-pnl.timer",
         "delta1-no-submission-alert.timer",
         "delta1-lifecycle-mark.timer",
         "delta1-capsim-shadow.timer",
@@ -74,7 +74,7 @@
       }
     },
     "start_ts": "2026-10-30T20:12:48.865358+00:00",
-    "uptime_s": 1019813.744146
+    "uptime_s": 1019874.005369
   },
   "fib_server": {
     "account_positions_count": 0,
@@ -226,6 +226,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1794410982,
-  "pushed_at_iso": "2026-11-11T15:29:42Z"
+  "pushed_at": 1794411043,
+  "pushed_at_iso": "2026-11-11T15:30:43Z"
 }
