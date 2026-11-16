@@ -22,13 +22,15 @@
   "delta1_server": {
     "bootstrap": null,
     "broker": {
-      "account_number": "237583013",
+      "account_number": null,
       "configured_live_account": "237583013",
-      "equity": 10710.98,
-      "mismatch": false,
-      "mismatch_reasons": [],
-      "n_positions": 1,
-      "reachable": true
+      "equity": null,
+      "mismatch": true,
+      "mismatch_reasons": [
+        "broker_unreachable"
+      ],
+      "n_positions": 0,
+      "reachable": false
     },
     "heartbeats": {},
     "last_scan_run_id": null,
@@ -217,6 +219,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1794820005,
-  "pushed_at_iso": "2026-11-16T09:06:45Z"
+  "pushed_at": 1794820064,
+  "pushed_at_iso": "2026-11-16T09:07:44Z"
 }
