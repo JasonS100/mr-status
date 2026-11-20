@@ -24,7 +24,7 @@
     "broker": {
       "account_number": "237583013",
       "configured_live_account": "237583013",
-      "equity": 10552.98,
+      "equity": 10546.98,
       "mismatch": false,
       "mismatch_reasons": [],
       "n_positions": 1,
@@ -44,7 +44,6 @@
         "0 22 * * * /opt/trading/scripts/nightly_backup.sh >> /var/log/trading_backup.log 2>&1"
       ],
       "host_timers": [
-        "delta1-d3-shadow-scan.timer",
         "gts-delta1-overlay-shadow.timer",
         "maint-shadow-delta1.timer",
         "delta1-no-submission-alert.timer",
@@ -52,6 +51,7 @@
         "delta1-capsim-shadow.timer",
         "delta1-signal-monitor.timer",
         "delta1-db-prune.timer",
+        "delta1-d3-shadow-scan.timer",
         "tdp-heartbeat-push.timer"
       ],
       "loops": {
@@ -217,6 +217,6 @@
     "archived_at": "2026-08-06",
     "note": "replaced by fxp2 on DUQ897386/:4004"
   },
-  "pushed_at": 1795177780,
-  "pushed_at_iso": "2026-11-20T12:29:40Z"
+  "pushed_at": 1795177840,
+  "pushed_at_iso": "2026-11-20T12:30:40Z"
 }
